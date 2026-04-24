@@ -25,6 +25,12 @@
 
 This list is intentionally **dexterity-first**. It includes strong adjacent manipulation work only when it materially helps understand, build, evaluate, or deploy dexterous manipulation systems.
 
+<p align="center">
+  <img src="assets/dexterous-manipulation-examples.png" alt="Examples of dexterous manipulation systems and tasks" width="900">
+  <br>
+  <sub><span style="color: #777;">Source: Fig. 1 from <a href="https://arxiv.org/abs/2504.03515">Dexterous Manipulation through Imitation Learning: A Survey</a>.</span></sub>
+</p>
+
 ## Must Read
 
 Start here if you want the shortest path through the field.
@@ -339,6 +345,12 @@ Learning, planning, control, and data-pipeline methods for dexterous manipulatio
 <a id="35-data-collection-paradigms"></a>
 
 ### 3.5 Data Collection Paradigms
+
+<p align="center">
+  <img src="assets/dexterous-teleoperation-frameworks.png" alt="Teleoperation frameworks and commonly used devices for dexterous manipulation" width="900">
+  <br>
+  <sub><span style="color: #777;">Source: teleoperation framework figure from <a href="https://arxiv.org/abs/2504.03515">Dexterous Manipulation through Imitation Learning: A Survey</a>.</span></sub>
+</p>
 
 #### Vision-based Teleoperation
 
