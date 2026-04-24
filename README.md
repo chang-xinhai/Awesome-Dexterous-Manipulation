@@ -41,6 +41,7 @@ Start here if you want the shortest path through the field.
 
 ## News
 
+- [2026-04-24] Added imitation-learning survey anchors and strongly related dexterous teleoperation, video-imitation, and hand-object dataset resources.
 - [2026-04-24] Added focused in-hand rotation, tactile manipulation, and Yuyang Li project-cluster resources.
 - [2026-04-24] Initialized **Awesome-Dexterous-Manipulation** with hardware, task, methodology, infrastructure, and survey taxonomy.
 - [2026-04-24] Added initial seed resources for dexterous hands, tactile sensing, dexterous RL, teleoperation, simulators, and datasets.
@@ -233,6 +234,7 @@ Hand-centric capabilities, organized by manipulation taxonomy rather than by onl
 | 2025-05-28 | DexHand, Robot-Free, UMI | Stanford | [DexUMI: Using Human Hand as the Universal Manipulation Interface for Dexterous Manipulation](https://arxiv.org/abs/2505.21864) | RSSW 2025 | [data](https://umi-data.github.io/) |
 | 2024-11-19 | Bimanual Dexterity, Asymmetry, RL | Georgia Tech | [AsymDex: Asymmetry and Relative Coordinates for RL-based Bimanual Dexterity](https://arxiv.org/abs/2411.13020) | arXiv | [project](https://star-lab.cc.gatech.edu/papers/Yang-AsymDex-preprint/) |
 | 2024-10-17 | Bimanual, Dexterity, Real Robot | Google DeepMind | [ALOHA Unleashed: A Simple Recipe for Robot Dexterity](https://arxiv.org/abs/2410.13126) | arXiv | [project](https://aloha-unleashed.github.io/) |
+| 2024-03-28 | Bimanual, Hand-Object, Complex Tasks | Shanghai Jiao Tong University | [OAKINK2: A Dataset of Bimanual Hands-Object Manipulation in Complex Task Completion](https://arxiv.org/abs/2403.19417) | CVPR 2024 | [project](https://oakink.net/v2/) / [github](https://github.com/oakink/OakInk2) |
 | 2024-01-08 | Bimanual, Mobile, Teleoperation | Stanford | [Mobile ALOHA: Learning Bimanual Mobile Manipulation with Low-Cost Whole-Body Teleoperation](https://arxiv.org/abs/2401.02117) | arXiv | [project](https://mobile-aloha.github.io/) / [github](https://github.com/MarkFzp/mobile-aloha) |
 
 #### Deformable Object Manipulation
@@ -286,6 +288,7 @@ Learning, planning, control, and data-pipeline methods for dexterous manipulatio
 | 2024-10-17 | Bimanual, Imitation, Robot Dexterity | Google DeepMind | [ALOHA Unleashed](https://arxiv.org/abs/2410.13126) | arXiv | [project](https://aloha-unleashed.github.io/) |
 | 2024-01-08 | Bimanual, Mobile, Low-Cost Teleop | Stanford | [Mobile ALOHA](https://arxiv.org/abs/2401.02117) | arXiv | [project](https://mobile-aloha.github.io/) |
 | 2023-04-13 | ACT, Action Chunking, Bimanual | Stanford | [Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware](https://arxiv.org/abs/2304.13705) | RSS 2023 | [project](https://tonyzhaozh.github.io/aloha/) / [github](https://github.com/tonyzhaozh/act) |
+| 2022-03-24 | Dexterous Imitation, RGB Teleop, Allegro | NYU | [Dexterous Imitation Made Easy: A Learning-Based Framework for Efficient Dexterous Manipulation](https://arxiv.org/abs/2203.13251) | arXiv | [project](https://nyu-robot-learning.github.io/dime/) |
 
 #### Diffusion Policies
 
@@ -345,6 +348,8 @@ Learning, planning, control, and data-pipeline methods for dexterous manipulatio
 | 2024-07-02 | Teleoperation, Immersive, Active Vision | UC San Diego | [Open-TeleVision: Teleoperation with Immersive Active Visual Feedback](https://arxiv.org/abs/2407.01512) | CoRL 2024 | [github](https://github.com/OpenTeleVision/TeleVision) |
 | 2024-03-12 | VR, Bimanual, Teleoperation | NYU | [OPEN TEACH: A Versatile Teleoperation System for Robotic Manipulation](https://arxiv.org/abs/2403.07870) | arXiv | [github](https://github.com/aadhithya14/Open-Teach) |
 | 2024-02-15 | Robot-Free Teaching, Portable, UMI | Stanford | [Universal Manipulation Interface](https://arxiv.org/abs/2402.10329) | RSS 2024 | [project](https://umi-gripper.github.io/) |
+| 2023-07-10 | Vision Teleop, Multi-Hand, Hardware-Agnostic | UC San Diego | [AnyTeleop: A General Vision-Based Dexterous Robot Arm-Hand Teleoperation System](https://arxiv.org/abs/2307.04577) | RSS 2023 | [project](https://yzqin.github.io/anyteleop/) |
+| 2019-10-07 | Vision Teleop, Hand-Arm, DexHand | NVIDIA | [DexPilot: Vision Based Teleoperation of Dexterous Robotic Hand-Arm System](https://arxiv.org/abs/1910.03135) | arXiv | [project](https://sites.google.com/view/dex-pilot) |
 
 #### Exoskeleton & Glove-based
 
@@ -362,6 +367,7 @@ Learning, planning, control, and data-pipeline methods for dexterous manipulatio
 | 2025-10-09 | Human Videos, Bimanual, Generated Videos | Shanghai AI Lab | [DexMan](https://arxiv.org/abs/2510.08475) | arXiv | [paper](https://arxiv.org/abs/2510.08475) |
 | 2024-10-31 | Egocentric Video, Imitation, Scaling | Georgia Tech | [EgoMimic](https://arxiv.org/abs/2410.24221) | arXiv | [project](https://egomimic.github.io/) |
 | 2022-03-30 | Human Video, Telekinesis, Dexterous Hand | Stanford | [Robotic Telekinesis: Learning a Robotic Hand Imitator by Watching Humans on YouTube](https://arxiv.org/abs/2202.10448) | RSS 2022 | [project](https://robotic-telekinesis.github.io/) |
+| 2021-08-12 | Human Video, Retargeting, DexHand | UC San Diego | [DexMV: Imitation Learning for Dexterous Manipulation from Human Videos](https://arxiv.org/abs/2108.05877) | ECCV 2022 | [project](https://yzqin.github.io/dexmv/) |
 
 <h2 id="-4-infrastructure">🛠️ 4. Infrastructure</h2>
 
@@ -404,6 +410,13 @@ Reusable simulators, benchmark suites, datasets, robot descriptions, and trainin
 | 2020-09-01 | Human Grasp, Object Pose, Contact | University of Tuebingen | [GRAB: A Dataset of Whole-Body Human Grasping of Objects](https://arxiv.org/abs/2008.11200) | ECCV 2020 | [project](https://grab.is.tue.mpg.de/) |
 | 2019-12-17 | Hand-Object, 3D Reconstruction, HO-3D | IIT Delhi | [HOnnotate: A Method for 3D Annotation of Hand and Object Poses](https://arxiv.org/abs/1907.01481) | CVPR 2020 | [project](https://www.tugraz.at/index.php?id=40231) |
 
+#### Hand-Object & Bimanual Datasets
+
+| Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
+| :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
+| 2024-03-28 | Bimanual, Hand-Object, Complex Tasks | Shanghai Jiao Tong University | [OAKINK2: A Dataset of Bimanual Hands-Object Manipulation in Complex Task Completion](https://arxiv.org/abs/2403.19417) | CVPR 2024 | [project](https://oakink.net/v2/) / [github](https://github.com/oakink/OakInk2) |
+| 2022-04-28 | Bimanual, Articulated Objects, Contact | ETH Zurich | [ARCTIC: A Dataset for Dexterous Bimanual Hand-Object Manipulation](https://arxiv.org/abs/2204.13662) | CVPR 2023 | [project](https://arctic.is.tue.mpg.de/) |
+
 #### Teleoperation & Task Benchmarks
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
@@ -419,6 +432,7 @@ Reusable simulators, benchmark suites, datasets, robot descriptions, and trainin
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
+| 2025-04-04 | Imitation Learning, Teleoperation, Survey | Tianjin University | [Dexterous Manipulation through Imitation Learning: A Survey](https://arxiv.org/abs/2504.03515) | arXiv | [html](https://arxiv.org/html/2504.03515v5) |
 | 2021-05-18 | Tactile Sensing, Review, Robots | University of Bristol | [A Review of Tactile Sensors for Robotic Applications](https://www.mdpi.com/1424-8220/21/11/3938) | Sensors 2021 | [paper](https://www.mdpi.com/1424-8220/21/11/3938) |
 | 2018-12-01 | Dexterous Manipulation, Hand-Centric Taxonomy | Stanford | [A Hand-Centric Classification of Human and Robot Dexterous Manipulation](https://doi.org/10.1109/TOH.2018.2866787) | IEEE ToH 2018 | [paper](https://doi.org/10.1109/TOH.2018.2866787) |
 
