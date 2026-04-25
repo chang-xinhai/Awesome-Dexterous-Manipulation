@@ -38,7 +38,7 @@ Start here if you want the shortest path through the field.
 | Goal | Start with |
 | :-- | :-- |
 | Understand classic dexterous manipulation | [A Mathematical Introduction to Robotic Manipulation](https://www.cds.caltech.edu/~murray/mlswiki/index.php/Main_Page), [A framework for planning dexterous manipulation](https://dblp.org/rec/conf/icra/TrinkleH91) |
-| Learn modern in-hand RL | [Learning Dexterous In-Hand Manipulation](https://arxiv.org/abs/1808.00177), [Learning Complex Dexterous Manipulation with Deep RL and Demonstrations](https://arxiv.org/abs/1709.10087), [In-Hand Object Rotation via Rapid Motor Adaptation](https://arxiv.org/abs/2210.04887) |
+| Learn modern in-hand RL | [Learning Dexterous In-Hand Manipulation](https://arxiv.org/abs/1808.00177), [Learning Complex Dexterous Manipulation with Deep RL and Demonstrations](https://arxiv.org/abs/1709.10087), [HORA: In-Hand Object Rotation via Rapid Motor Adaptation](https://arxiv.org/abs/2210.04887) |
 | Study dexterous hands | [LEAP Hand](https://v1.leaphand.com/), [Shadow Dexterous Hand](https://www.shadowrobot.com/dexterous-hand-series/), [Allegro Hand](https://github.com/Wonikrobotics-git/allegro_hand_ros_v5) |
 | Study tactile sensing | [TacThru](https://tacthru.yuyang.li/), [GelSight](https://gelsight.com/), [DIGIT](https://digit.ml/), [ReSkin](https://reskin.dev/), [Awesome Touch](https://github.com/linchangyi1/Awesome-Touch) |
 | Find benchmarks and datasets | [DexYCB](https://dex-ycb.github.io/), [DexGraspNet](https://pku-epic.github.io/DexGraspNet/), [Adroit](https://github.com/Farama-Foundation/D4RL/wiki/Tasks#adroit), [Shadow Hand environments](https://isaac-sim.github.io/IsaacLab/main/source/overview/environments.html) |
@@ -47,10 +47,9 @@ Start here if you want the shortest path through the field.
 
 ## News
 
-- [2026-04-24] Added imitation-learning survey anchors and strongly related dexterous teleoperation, video-imitation, and hand-object dataset resources.
-- [2026-04-24] Added focused in-hand rotation, tactile manipulation, and Yuyang Li project-cluster resources.
+- [2026-04-25] Added comprehensive coverage of RSS/CoRL/ICRA/IROS 2025 papers: Dex1B, DexterityGen, DOGlove, Dexonomy, ViViDex, DexMimicGen, TypeTele, GeoRT, SimLauncher, and more.
+- [2026-04-25] Deepened in-hand manipulation coverage with Visual Dexterity lineage, tactile in-hand manipulation, Real Robot Challenge, and benchmark papers.
 - [2026-04-24] Initialized **Awesome-Dexterous-Manipulation** with hardware, task, methodology, infrastructure, and survey taxonomy.
-- [2026-04-24] Added initial seed resources for dexterous hands, tactile sensing, dexterous RL, teleoperation, simulators, and datasets.
 
 ## Contents
 
@@ -92,11 +91,16 @@ Physical systems and sensing layers for dexterous manipulation.
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
+| 2025-09-25 | Suction Cups, LEAP Hand, Teleoperation | University of Edinburgh | [Suction Leap-Hand: Suction Cups on a Multi-fingered Hand Enable Embodied Dexterity and In-Hand Teleoperation](https://arxiv.org/abs/2509.20646) | arXiv | [paper](https://arxiv.org/abs/2509.20646) |
 | 2024-10-28 | 16 DoF, 8 Motors, Open Hardware | Carnegie Mellon | [LEAP Hand v2](https://v2.leaphand.com/) | RSS 2025 Demo | [hardware](https://v2.leaphand.com/) |
 | 2024-08-12 | Vision-Tactile, Dexterous Hand, Compliant | MIT | [EyeSight Hand: Design of a Fully-Actuated Dexterous Robot Hand with Integrated Vision-Based Tactile Sensors and Compliant Actuation](https://arxiv.org/abs/2408.06265) | IROS 2024 | [project](https://eyesighthand.github.io/) |
 | 2023-09-14 | Low-Cost, Anthropomorphic, Open Source | Carnegie Mellon | [LEAP Hand: Low-Cost, Efficient, and Anthropomorphic Hand for Robot Learning](https://arxiv.org/abs/2309.06440) | RSS 2024 | [project](https://v1.leaphand.com/) / [github](https://github.com/leap-hand/LEAP_Hand_API) |
 | 2022-12-06 | Robust Hand, Industrial, Product | Shadow Robot | [Shadow Dexterous Hand Series](https://www.shadowrobot.com/dexterous-hand-series/) | Website | [hardware](https://www.shadowrobot.com/dexterous-hand-series/) |
 | 2018-07-30 | Tendon Actuation, Dexterous Hand, Design | University of Washington | [The Yale OpenHand Project: Optimizing Open-Source Hand Designs for Ease of Fabrication and Adoption](https://ieeexplore.ieee.org/document/8412004) | RA-L 2018 | [project](https://www.eng.yale.edu/grablab/openhand/) |
+| 2026-03-26 | Tendon-Driven, Open Source, Wrist+Abduction | Cornell University | [Ruka-v2: Tendon Driven Open-Source Dexterous Hand with Wrist and Abduction for Robot Learning](https://arxiv.org/abs/2603.26660) | arXiv | [project](https://ruka-hand-v2.github.io/) |
+| 2026-03-07 | Cable-Driven, Force Feedback, Teleoperation | Zhejiang University | [CDF-Glove: A Cable-Driven Force Feedback Glove for Dexterous Teleoperation](https://arxiv.org/abs/2603.05804) | arXiv | [project](https://cdfglove.github.io/) |
+| 2025-10-14 | Spatial Wrench, Haptic Glove, Contact-Rich | Tsinghua | [Glovity: Learning Dexterous Contact-Rich Manipulation via Spatial Wrench Feedback Teleoperation System](https://arxiv.org/abs/2510.09229) | arXiv | [project](https://glovity.github.io/) |
+| 2025-06-09 | Low-Cost, 20-DoF, Whole-Hand Perception | Nankai University | [RAPID Hand: A Robust, Affordable, Perception-Integrated, Dexterous Manipulation Platform](https://arxiv.org/abs/2506.07490) | NeurIPS 2025 | [paper](https://arxiv.org/abs/2506.07490) |
 
 #### Non-Anthropomorphic & Multi-Finger Grippers
 
@@ -106,6 +110,9 @@ Physical systems and sensing layers for dexterous manipulation.
 | 2016-08-23 | Multi-Finger, Research Hand, Simulation | Wonik Robotics | [Allegro Hand](https://github.com/Wonikrobotics-git/allegro_hand_ros_v5) | GitHub | [ros-v5](https://github.com/Wonikrobotics-git/allegro_hand_ros_v5) / [ros-v4](https://github.com/Wonikrobotics-git/allegro_hand_ros_v4) |
 | 2015-05-26 | Adaptive Gripper, Three-Finger, Industrial | Robotiq | [3-Finger Adaptive Robot Gripper](https://robotiq.com/products/3-finger-adaptive-robot-gripper) | Website | [hardware](https://robotiq.com/products/3-finger-adaptive-robot-gripper) |
 | 2014-05-31 | Underactuated, Open Hardware, Grasping | Yale | [OpenHand: A Library of Robot Hand Designs](https://www.eng.yale.edu/grablab/openhand/) | Website | [project](https://www.eng.yale.edu/grablab/openhand/) |
+| 2025-04-15 | Open-Source, Low-Cost, Anthropomorphic | ETH Zurich | [ORCA: An Open-Source, Reliable, Cost-Effective, Anthropomorphic Robotic Hand](https://arxiv.org/abs/2504.04259) | IROS 2025 | [project](https://orcas-hand.github.io/) |
+| 2025-04-14 | Learning-Driven Design, Humanoid Hands | NYU | [RUKA: Rethinking the Design of Humanoid Hands with Learning](https://arxiv.org/abs/2504.13165) | RSS 2025 | [paper](https://arxiv.org/abs/2504.13165) |
+| 2025-09-15 | Non-Anthropomorphic, Fused Abduction, Grasping | ETH Zurich | [SABD: Beyond Anthropomorphism - Enhancing Grasping by Fusing Digits 4 and 5](https://arxiv.org/abs/2509.13074) | arXiv | [paper](https://arxiv.org/abs/2509.13074) |
 
 <a id="12-tactile-sensors"></a>
 
@@ -146,8 +153,13 @@ Physical systems and sensing layers for dexterous manipulation.
 | 2025-11-08 | Vision+Tactile, Fine Manipulation, Bimanual | Tsinghua | [ViTaMIn-B](https://chuanyune.github.io/ViTaMIn-B_page/) | arXiv | [project](https://chuanyune.github.io/ViTaMIn-B_page/) |
 | 2025-08-04 | Tactile Control, Articulated Objects, Proactive | Peking University | [TacMan-Turbo: Proactive Tactile Control for Robust and Efficient Articulated Object Manipulation](https://arxiv.org/abs/2508.02204) | T-ASE 2026 | [paper](https://arxiv.org/abs/2508.02204) |
 | 2025-04-08 | Robot-Free, Visuo-Tactile, Contact-Rich | Tsinghua | [ViTaMIn: Learning Contact-Rich Tasks Through Robot-Free Visuo-Tactile Manipulation Interface](https://arxiv.org/abs/2504.06156) | arXiv | [project](https://chuanyune.github.io/ViTaMIn_page/) |
+| 2025-04-18 | Conformable Skin, Contact-Rich, RL | UC Berkeley | [DexSkin: High-Coverage Conformable Robotic Skin for Learning Contact-Rich Manipulation](https://arxiv.org/abs/2509.18830) | CoRL 2025 | [paper](https://arxiv.org/abs/2509.18830) |
+| 2025-05-12 | Self-Supervised, Magnetic Skin, PercepSkin | Intel Labs | [Sparsh-skin: Self-supervised Perception for Tactile Skin Covered Dexterous Hands](https://arxiv.org/abs/2505.11420) | CoRL 2025 | [paper](https://arxiv.org/abs/2505.11420) |
 | 2024-03-04 | Tactile, Articulated Objects, Prior-Free | Peking University | [Tac-Man: Tactile-Informed Prior-Free Manipulation of Articulated Objects](https://arxiv.org/abs/2403.01694) | T-RO 2024 | [project](https://tacman-aom.github.io/) |
-| 2023-09-18 | Vision+Touch, In-Hand Rotation, Sim2Real | UC Berkeley | [General In-Hand Object Rotation with Vision and Touch](https://arxiv.org/abs/2309.09979) | CoRL 2023 | [project](https://haozhi.io/rotateit/) |
+| 2023-09-18 | Vision+Touch, In-Hand Rotation, Sim2Real | UC Berkeley | [RotateIt: General In-Hand Object Rotation with Vision and Touch](https://arxiv.org/abs/2309.09979) | CoRL 2023 | [project](https://haozhi.io/rotateit/) |
+| 2025-02-08 | Correspondence, Visuomotor, Diffusion Policy | Tsinghua | [CordViP: Correspondence-based Visuomotor Policy for Dexterous Manipulation in Real-World](https://arxiv.org/abs/2502.08449) | RSS 2025 | [paper](https://arxiv.org/abs/2502.08449) |
+| 2025-02-10 | Visuo-Tactile, Implicit Representation, Pose Estimation | UConn | [ViTaSCOPE: Visuo-tactile Implicit Representation for In-hand Pose and Extrinsic Contact Estimation](https://arxiv.org/abs/2506.12239) | RSS 2025 | [paper](https://arxiv.org/abs/2506.12239) |
+| 2025-04-20 | Paper Picking, Tactile Feedback, Diffusion Policy | Tsinghua | [PP-Tac: Paper Picking Using Tactile Feedback in Dexterous Robotic Hands](https://arxiv.org/abs/2504.16649) | RSS 2025 | [paper](https://arxiv.org/abs/2504.16649) |
 | 2022-09-30 | Multimodal, Contact-Rich, Learning | MIT | [Visuo-Tactile Transformers for Manipulation](https://arxiv.org/abs/2210.00121) | CoRL 2022 | [paper](https://arxiv.org/abs/2210.00121) |
 
 #### Proprioception & Force-Torque
@@ -156,7 +168,7 @@ Physical systems and sensing layers for dexterous manipulation.
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
 | 2026-01-15 | Force, Compliance, Contact-Rich | Stanford | [In-the-Wild Compliant Manipulation with UMI-FT](https://arxiv.org/abs/2601.09988) | ICRA 2026 | [github](https://github.com/real-stanford/UMI-FT) |
 | 2025-09-23 | Force-Guided, Wrist F/T, Contact-Rich | GIST | [ManipForce](https://sites.google.com/view/manipforce/) | ICRA 2026 | [project](https://sites.google.com/view/manipforce/) / [github](https://github.com/gist-ailab/ManipForce) |
-| 2022-10-10 | Proprioception, Adaptation, Sim2Real | UC Berkeley | [In-Hand Object Rotation via Rapid Motor Adaptation](https://arxiv.org/abs/2210.04887) | arXiv | [paper](https://arxiv.org/abs/2210.04887) |
+| 2022-10-10 | Proprioception, Adaptation, Sim2Real | UC Berkeley | [HORA: In-Hand Object Rotation via Rapid Motor Adaptation](https://arxiv.org/abs/2210.04887) | arXiv | [paper](https://arxiv.org/abs/2210.04887) |
 | 2019-10-16 | Proprioception, Vision, Rubik's Cube | OpenAI | [Solving Rubik's Cube with a Robot Hand](https://arxiv.org/abs/1910.07113) | arXiv | [blog](https://openai.com/index/solving-rubiks-cube/) |
 
 <h2 id="-2-dexterity-capabilities--tasks">🖐️ 2. Dexterity Capabilities & Tasks</h2>
@@ -171,21 +183,44 @@ Hand-centric capabilities, organized by manipulation taxonomy rather than by onl
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
+| 2026-04-13 | Monocular RGB, 3DGS, Visual Sim2Real | ETH Zurich | [ViserDex: Visual Sim-to-Real for Robust Dexterous In-hand Reorientation](https://arxiv.org/abs/2604.11138) | arXiv | [project](https://rffr.leggedrobotics.com/works/viserdex/) |
+| 2026-02-14 | Contact Coverage, Exploration, General-Purpose | Shanghai AI Lab | [Contact Coverage-Guided Exploration for General-Purpose Dexterous Manipulation](https://arxiv.org/abs/2603.10971) | arXiv | [paper](https://arxiv.org/abs/2603.10971) |
+| 2026-02-09 | Cross-Embodiment, Transformer, LEAP Hand | HKUST(GZ) | [DexFormer: Cross-Embodied Dexterous Manipulation via History-Conditioned Transformer](https://arxiv.org/abs/2602.08278) | arXiv | [project](https://davidlxu.github.io/DexFormer-web/) |
+| 2026-01-27 | Zero-Shot Sim2Real, Force-Based Grasping, Tactile | CMU | [Closing the Reality Gap: Zero-Shot Sim-to-Real Deployment for Dexterous Force-Based Grasping and Manipulation](https://arxiv.org/abs/2601.02778) | arXiv | [paper](https://arxiv.org/abs/2601.02778) |
+| 2025-11-10 | Tactile Equivariance, Residual Rotation, SO(2) | CMU / Boston University | [EquiTac: Residual Rotation Correction using Tactile Equivariance](https://arxiv.org/abs/2511.07381) | arXiv | [paper](https://arxiv.org/abs/2511.07381) |
 | 2025-10-09 | In-Hand Rotation, Neural Dynamics, Sim2Real | Tsinghua | [DexNDM: Closing the Reality Gap for Dexterous In-Hand Rotation via Joint-Wise Neural Dynamics Model](https://arxiv.org/abs/2510.08556) | ICLR 2026 | [project](https://meowuu7.github.io/DexNDM/) |
+| 2025-08-03 | Mixture-of-Experts, General Objects, RL | HUST | [DexReMoE: In-hand Reorientation of General Object via Mixtures of Experts](https://arxiv.org/abs/2508.01695) | arXiv | [project](https://wj-0212.github.io/) |
+| 2025-06-03 | Foundation Controller, Motion Primitives, RL Pretraining | Physical Intelligence | [DexterityGen: Foundation Controller for Unprecedented Dexterity](https://arxiv.org/abs/2502.04307) | arXiv | [project](https://physical-intelligence.github.io/) |
+| 2025-06-26 | 1B Demonstrations, Synthetic Data, Dexterous Manipulation | UC San Diego | [Dex1B: Learning with 1B Demonstrations for Dexterous Manipulation](https://arxiv.org/abs/2506.17198) | arXiv | [project](https://dex1b.github.io/) |
+| 2025-06-09 | Micro-vibrations, Fingertip, In-hand Reconfiguration | UConn | [Vib2Move: In-hand Object Reconfiguration via Fingertip Micro-vibrations](https://arxiv.org/abs/2506.10923) | arXiv | [paper](https://arxiv.org/abs/2506.10923) |
 | 2025-05-12 | In-the-Wild, DexHand, Human-to-Robot | CMU | [DexWild](https://dexwild.github.io/) | RSS 2025 | [project](https://dexwild.github.io/) |
-| 2025-01-09 | Any-Axis, Hierarchical Skills, Pose Estimation | UC Berkeley | [From Simple to Complex Skills: The Case of In-Hand Object Reorientation](https://arxiv.org/abs/2501.05439) | arXiv | [paper](https://arxiv.org/abs/2501.05439) |
+| 2026-02-25 | Geometric Representations, Sim-to-Real, Hand-Object | Shanghai AI Lab | [DexRepNet++: Learning Dexterous Robotic Manipulation with Geometric and Spatial Hand-Object Representations](https://arxiv.org/abs/2602.21811) | arXiv | [paper](https://arxiv.org/abs/2602.21811) |
+| 2025-01-09 | Any-Axis, Hierarchical Skills, Pose Estimation | UC Berkeley | [From Simple to Complex Skills: The Case of In-Hand Object Reorientation](https://arxiv.org/abs/2501.05439) | arXiv | [project](https://dexhier.github.io/) |
 | 2024-07-10 | In-Hand Translation, Tactile Skin, Shear | Meta FAIR | [Learning In-Hand Translation Using Tactile Skin With Shear and Normal Force Sensing](https://arxiv.org/abs/2407.07885) | arXiv | [project](https://jessicayin.github.io/tactile-skin-rl/) |
-| 2023-09-18 | In-Hand Rotation, Vision+Touch, Sim2Real | UC Berkeley | [General In-Hand Object Rotation with Vision and Touch](https://arxiv.org/abs/2309.09979) | CoRL 2023 | [project](https://haozhi.io/rotateit/) |
-| 2022-11-21 | Visual Dexterity, Depth, Novel Objects | MIT | [Visual Dexterity: In-Hand Reorientation of Novel and Complex Object Shapes](https://arxiv.org/abs/2211.11744) | Science Robotics 2023 | [project](https://taochenshh.github.io/projects/visual-dexterity/) |
-| 2022-10-10 | In-Hand Reorientation, Adaptation, Disturbance | UC Berkeley | [In-Hand Object Rotation via Rapid Motor Adaptation](https://arxiv.org/abs/2210.04887) | arXiv | [paper](https://arxiv.org/abs/2210.04887) |
+| 2025-09-18 | Scalable Neural Control, Reference-Scoped, MoCap | Georgia Tech | [Dexplore: Scalable Neural Control for Dexterous Manipulation from Reference-Scoped Exploration](https://arxiv.org/abs/2509.09671) | CoRL 2025 | [paper](https://arxiv.org/abs/2509.09671) |
+| 2025-09-25 | Force Safety, Implicit Tactile, Vision-Guided | CUHK | [SafeDiff: Ensuring Force Safety in Vision-Guided Robotic Manipulation via Implicit Tactile Calibration](https://arxiv.org/abs/2412.10349) | CoRL 2025 | [paper](https://arxiv.org/abs/2412.10349) |
+| 2023-12-04 | Visuotactile, Teacher-Student, Contact-Rich | UC San Diego | [Robot Synesthesia: In-Hand Manipulation with Visuotactile Sensing](https://arxiv.org/abs/2312.01853) | arXiv | [project](https://yingyuan0414.github.io/visuotactile/) |
+| 2023-09-18 | In-Hand Rotation, Vision+Touch, Sim2Real | UC Berkeley | [RotateIt: General In-Hand Object Rotation with Vision and Touch](https://arxiv.org/abs/2309.09979) | CoRL 2023 | [project](https://haozhi.io/rotateit/) |
+| 2023-04-11 | Tactile RL, Slender Objects, Sim2Real | University of Edinburgh | [Dexterous In-Hand Manipulation of Slender Cylindrical Objects through Deep Reinforcement Learning with Tactile Sensing](https://arxiv.org/abs/2304.05141) | arXiv | [paper](https://arxiv.org/abs/2304.05141) |
+| 2023-04-03 | Tactile GNN, Blind Robot, Baoding Balls | SUSTech | [TacGNN: Learning Tactile-based In-hand Manipulation with a Blind Robot](https://arxiv.org/abs/2304.00736) | RA-L 2023 | [paper](https://arxiv.org/abs/2304.00736) |
+| 2022-11-21 | Visual Dexterity, Depth, Novel Objects | MIT | [Visual Dexterity: In-Hand Reorientation of Novel and Complex Object Shapes](https://arxiv.org/abs/2211.11744) | Science Robotics 2023 | [project](https://taochenshh.github.io/projects/visual-dexterity/) / [journal](https://www.science.org/doi/10.1126/scirobotics.adc9244) |
+| 2022-10-10 | In-Hand Reorientation, Adaptation, Disturbance | UC Berkeley | [HORA: In-Hand Object Rotation via Rapid Motor Adaptation](https://arxiv.org/abs/2210.04887) | arXiv | [paper](https://arxiv.org/abs/2210.04887) |
+| 2022-04-07 | Tactile-Only, Torque Control, Cube Rotation | DLR | [Learning Purely Tactile In-Hand Manipulation with a Torque-Controlled Hand](https://arxiv.org/abs/2204.03698) | arXiv | [project](https://dlr-alr.github.io/dlr-tactile-manipulation/) |
+| 2022-01-27 | Robust Skills, Compliant Hand, Empirical Study | TU Berlin | [Surprisingly Robust In-Hand Manipulation: An Empirical Study](https://arxiv.org/abs/2201.11503) | RSS 2021 | [proceedings](https://roboticsproceedings.org/rss17/p089.html) |
+| 2021-11-04 | General Reorientation, Zero-Shot, Model-Free RL | MIT | [A System for General In-Hand Object Re-Orientation](https://arxiv.org/abs/2111.03043) | CoRL 2021 Oral | [project](https://taochenshh.github.io/projects/in-hand-reorientation/) / [openreview](https://openreview.net/forum?id=7uSBJDoP7tY) / [github](https://github.com/Improbable-AI/dexenv) |
+| 2021-01-08 | Real Robot Challenge, TriFinger, Planning | TTIC | [Grasp and Motion Planning for Dexterous Manipulation for the Real Robot Challenge](https://arxiv.org/abs/2101.02842) | arXiv | [challenge](https://real-robot-challenge.com/) |
+| 2020-01-09 | Benchmark, YCB Objects, In-Hand Pose | KTH | [Benchmarking In-Hand Manipulation](https://arxiv.org/abs/2001.03070) | RA-L 2020 | [paper](https://arxiv.org/abs/2001.03070) |
 | 2019-10-16 | Rubik's Cube, Vision, Domain Randomization | OpenAI | [Solving Rubik's Cube with a Robot Hand](https://arxiv.org/abs/1910.07113) | arXiv | [blog](https://openai.com/index/solving-rubiks-cube/) |
 | 2018-08-01 | In-Hand Manipulation, Shadow Hand, RL | OpenAI | [Learning Dexterous In-Hand Manipulation](https://arxiv.org/abs/1808.00177) | IJRR 2020 | [dblp](https://dblp.org/rec/journals/ijrr/OpenAI20) / [blog](https://openai.com/index/learning-dexterity/) |
+| 2018-02-26 | Multi-Goal RL, Shadow Hand, Gym Robotics | OpenAI | [Multi-Goal Reinforcement Learning: Challenging Robotics Environments and Request for Research](https://arxiv.org/abs/1802.09464) | arXiv | [github](https://github.com/openai/gym) |
 | 2017-09-28 | Demonstrations, Object Manipulation, Adroit | University of Washington | [Learning Complex Dexterous Manipulation with Deep Reinforcement Learning and Demonstrations](https://arxiv.org/abs/1709.10087) | RSS 2018 | [github](https://github.com/aravindr93/hand_dapg) |
 
 #### Finger Gaiting / Regrasping
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
+| 2025-09-22 | Tactile RL, Contact-Aware, Finger Gaiting | University of Southern Denmark | [Tac2Motion: Contact-Aware Reinforcement Learning with Tactile Feedback for Robotic Hand Manipulation](https://arxiv.org/abs/2509.17812) | arXiv | [video](https://youtu.be/poeJBPR7urQ) |
+| 2024-09-13 | Teleoperation, Finger Gaiting, Residual Learning | UIUC | [ResPilot: Teleoperated Finger Gaiting via Gaussian Process Residual Learning](https://arxiv.org/abs/2409.09140) | CoRL 2024 | [project](https://respilot-hri.github.io/) |
 | 2021-09-27 | Finger Gaiting, Intrinsic Sensing, Tactile | Columbia | [On the Feasibility of Learning Finger-gaiting In-hand Manipulation with Intrinsic Sensing](https://arxiv.org/abs/2109.12720) | arXiv | [project](https://roamlab.github.io/learnfg/) / [pdf](https://roamlab.github.io/learnfg/paper.pdf) |
 | 1991-04-01 | Contact Planning, Classic, ICRA | Rensselaer Polytechnic Institute | [A framework for planning dexterous manipulation](https://dblp.org/rec/conf/icra/TrinkleH91) | ICRA 1991 | [author-bib](https://www.cse.lehigh.edu/~trink/trink_bib.html) |
 
@@ -194,6 +229,7 @@ Hand-centric capabilities, organized by manipulation taxonomy rather than by onl
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
 | 2014-05-31 | Extrinsic Dexterity, External Forces, Robot Hand | Carnegie Mellon | [Extrinsic Dexterity: In-Hand Manipulation with External Forces](https://publications.ri.cmu.edu/extrinsic-dexterity-in-hand-manipulation-with-external-forces) | ICRA 2014 | [paper](https://publications.ri.cmu.edu/extrinsic-dexterity-in-hand-manipulation-with-external-forces) |
+| 2025-09-23 | Articulated Tools, Cross-Attention, Sim2Real | UC San Diego | [In-Hand Manipulation of Articulated Tools with Dexterous Robot Hands with Sim-to-Real Transfer](https://arxiv.org/abs/2509.23075) | IROS 2025 | [paper](https://arxiv.org/abs/2509.23075) |
 
 <a id="22-non-prehensile-manipulation"></a>
 
@@ -242,6 +278,8 @@ Hand-centric capabilities, organized by manipulation taxonomy rather than by onl
 | 2024-10-17 | Bimanual, Dexterity, Real Robot | Google DeepMind | [ALOHA Unleashed: A Simple Recipe for Robot Dexterity](https://arxiv.org/abs/2410.13126) | arXiv | [project](https://aloha-unleashed.github.io/) |
 | 2024-03-28 | Bimanual, Hand-Object, Complex Tasks | Shanghai Jiao Tong University | [OAKINK2: A Dataset of Bimanual Hands-Object Manipulation in Complex Task Completion](https://arxiv.org/abs/2403.19417) | CVPR 2024 | [project](https://oakink.net/v2/) / [github](https://github.com/oakink/OakInk2) |
 | 2024-01-08 | Bimanual, Mobile, Teleoperation | Stanford | [Mobile ALOHA: Learning Bimanual Mobile Manipulation with Low-Cost Whole-Body Teleoperation](https://arxiv.org/abs/2401.02117) | arXiv | [project](https://mobile-aloha.github.io/) / [github](https://github.com/MarkFzp/mobile-aloha) |
+| 2024-10-20 | Bimanual, Automated Data Generation, Imitation Learning | UT Austin | [DexMimicGen: Automated Data Generation for Bimanual Dexterous Manipulation via Imitation Learning](https://arxiv.org/abs/2410.24185) | arXiv | [project](https://dexmimicgen.github.io/) |
+| 2025-03-15 | Multi-Head Skill Transformer, Long-Horizon, Skill Progress | NVIDIA | [MuST: Multi-Head Skill Transformer for Long-Horizon Dexterous Manipulation with Skill Progress](https://arxiv.org/abs/2502.02753) | ICRA 2025 | [paper](https://arxiv.org/abs/2502.02753) |
 
 #### Deformable Object Manipulation
 
@@ -263,22 +301,46 @@ Learning, planning, control, and data-pipeline methods for dexterous manipulatio
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
+| 2026-04-13 | Monocular RGB, 3DGS, Visual Sim2Real | ETH Zurich | [ViserDex](https://arxiv.org/abs/2604.11138) | arXiv | [project](https://rffr.leggedrobotics.com/works/viserdex/) |
+| 2026-02-14 | Contact Coverage, Exploration, General-Purpose | Shanghai AI Lab | [CCGE: Contact Coverage-Guided Exploration for General-Purpose Dexterous Manipulation](https://arxiv.org/abs/2603.10971) | arXiv | [paper](https://arxiv.org/abs/2603.10971) |
+| 2026-02-09 | Cross-Embodiment, Transformer, LEAP Hand | HKUST(GZ) | [DexFormer](https://arxiv.org/abs/2602.08278) | arXiv | [project](https://davidlxu.github.io/DexFormer-web/) |
+| 2026-01-27 | Zero-Shot Sim2Real, Force-Based Grasping, Tactile | CMU | [Closing the Reality Gap: Zero-Shot Sim-to-Real Deployment](https://arxiv.org/abs/2601.02778) | arXiv | [paper](https://arxiv.org/abs/2601.02778) |
+| 2025-11-10 | Tactile Equivariance, Residual Rotation, SO(2) | CMU / Boston University | [EquiTac: Residual Rotation Correction using Tactile Equivariance](https://arxiv.org/abs/2511.07381) | arXiv | [paper](https://arxiv.org/abs/2511.07381) |
 | 2025-10-09 | Neural Dynamics, In-Hand Rotation, Sim2Real | Tsinghua | [DexNDM](https://arxiv.org/abs/2510.08556) | ICLR 2026 | [project](https://meowuu7.github.io/DexNDM/) |
+| 2025-08-03 | Mixture-of-Experts, Object Generalization, RL | HUST | [DexReMoE](https://arxiv.org/abs/2508.01695) | arXiv | [project](https://wj-0212.github.io/) |
+| 2025-06-03 | Foundation Controller, Motion Primitives, RL Pretraining | Physical Intelligence | [DexterityGen](https://arxiv.org/abs/2502.04307) | arXiv | [project](https://physical-intelligence.github.io/) |
+| 2026-02-06 | Residual Flow Steering, Generative Policies, Fine-Tuning | University of Washington | [RFS: Reinforcement Learning with Residual Flow Steering for Dexterous Manipulation](https://arxiv.org/abs/2602.01789) | arXiv | [project](https://weirdlabuw.github.io/rfs) |
+| 2025-05-30 | Functional Retargeting, Bimanual, Sim2Real | NVIDIA | [DexMachina: Functional Retargeting for Bimanual Dexterous Manipulation](https://arxiv.org/abs/2505.24853) | arXiv | [project](https://project-dexmachina.github.io/) |
+| 2023-09-18 | Long-Horizon, Chaining Policies, RL | Stanford | [Sequential Dexterity: Chaining Dexterous Policies for Long-Horizon Manipulation](https://arxiv.org/abs/2309.00987) | CoRL 2023 | [paper](https://arxiv.org/abs/2309.00987) |
+| 2022-11-14 | Point Cloud, Generalizable, Sim2Real | UC San Diego | [DexPoint: Generalizable Point Cloud RL for Sim-to-Real Dexterous Manipulation](https://arxiv.org/abs/2211.09423) | CoRL 2022 | [paper](https://arxiv.org/abs/2211.09423) |
 | 2025-02-27 | Humanoid, DexHand, Sim2Real | NVIDIA | [Sim-to-Real Reinforcement Learning for Vision-Based Dexterous Manipulation on Humanoids](https://arxiv.org/abs/2502.20396) | arXiv | [project](https://toruowo.github.io/recipe/) |
-| 2025-01-09 | Hierarchical Skills, Any-Axis, Sim2Real | UC Berkeley | [From Simple to Complex Skills: The Case of In-Hand Object Reorientation](https://arxiv.org/abs/2501.05439) | arXiv | [paper](https://arxiv.org/abs/2501.05439) |
+| 2025-01-09 | Hierarchical Skills, Any-Axis, Sim2Real | UC Berkeley | [From Simple to Complex Skills: The Case of In-Hand Object Reorientation](https://arxiv.org/abs/2501.05439) | arXiv | [project](https://dexhier.github.io/) |
+| 2025-03-27 | Online Planning, Sampling, Dexterous Reorientation | CMU | [DROP: Dexterous Reorientation via Online Planning](https://arxiv.org/abs/2409.14562) | ICRA 2025 | [paper](https://arxiv.org/abs/2409.14562) |
+| 2025-03-04 | Geometric Algebra, SE(3) Equivariant, Diffusion | Georgia Tech | [GAGrasp: Geometric Algebra Diffusion for Dexterous Grasping](https://arxiv.org/abs/2503.04123) | ICRA 2025 | [paper](https://arxiv.org/abs/2503.04123) |
+| 2025-07-07 | Hierarchical RL, Articulated Tools, Multifingered Hand | Shanghai Jiao Tong | [Hierarchical Reinforcement Learning for Articulated Tool Manipulation with Multifingered Hand](https://arxiv.org/abs/2507.06822) | IROS 2025 | [paper](https://arxiv.org/abs/2507.06822) |
+| 2025-07-04 | Model-Based Simulation, Sim2Real, Visual RL | Tsinghua | [SimLauncher: Launching Dexterous Hand Manipulation Policies with Model-Based Simulation](https://arxiv.org/abs/2507.04452) | IROS 2025 | [paper](https://arxiv.org/abs/2507.04452) |
+| 2025-03-02 | Variable Friction, Sim2Real, Imitation Learning | CMU | [Variable-Friction In-Hand Manipulation for Arbitrary Objects via Diffusion-Based Imitation Learning](https://arxiv.org/abs/2503.02738) | ICRA 2025 | [paper](https://arxiv.org/abs/2503.02738) |
+| 2025-03-02 | Visuomotor Diffusion, In-Hand Manipulation, Multifingered | KTH | [Learning Dexterous In-Hand Manipulation with Multifingered Hands via Visuomotor Diffusion Policies](https://arxiv.org/abs/2503.02587) | IROS 2025 | [paper](https://arxiv.org/abs/2503.02587) |
+| 2024-10-01 | Cross-Embodiment, Unified Representation, D(R,O) | Tsinghua | [(R,O) Grasp: A Unified Representation of Robot and Object Interaction for Cross-Embodiment Dexterous Grasping](https://arxiv.org/abs/2410.01702) | ICRA 2025 | [paper](https://arxiv.org/abs/2410.01702) |
 | 2024-11-19 | Bimanual Dexterity, RL, Sim2Real | Georgia Tech | [AsymDex](https://arxiv.org/abs/2411.13020) | arXiv | [project](https://star-lab.cc.gatech.edu/papers/Yang-AsymDex-preprint/) |
 | 2024-07-26 | Pen Spinning, Real Fine-Tuning, Sim2Real | UC San Diego | [Lessons from Learning to Spin "Pens"](https://arxiv.org/abs/2407.18902) | arXiv | [project](https://penspin.github.io/) |
-| 2022-10-10 | Adaptation, Domain Randomization, Shadow Hand | UC Berkeley | [In-Hand Object Rotation via Rapid Motor Adaptation](https://arxiv.org/abs/2210.04887) | arXiv | [paper](https://arxiv.org/abs/2210.04887) |
+| 2022-10-10 | Adaptation, Domain Randomization, Shadow Hand | UC Berkeley | [HORA: In-Hand Object Rotation via Rapid Motor Adaptation](https://arxiv.org/abs/2210.04887) | arXiv | [paper](https://arxiv.org/abs/2210.04887) |
+| 2021-11-04 | General Reorientation, Zero-Shot, Distillation | MIT | [A System for General In-Hand Object Re-Orientation](https://arxiv.org/abs/2111.03043) | CoRL 2021 Oral | [project](https://taochenshh.github.io/projects/in-hand-reorientation/) |
 | 2019-10-16 | Rubik's Cube, Automatic Domain Randomization | OpenAI | [Solving Rubik's Cube with a Robot Hand](https://arxiv.org/abs/1910.07113) | arXiv | [blog](https://openai.com/index/solving-rubiks-cube/) |
 | 2018-08-01 | In-Hand Manipulation, Domain Randomization | OpenAI | [Learning Dexterous In-Hand Manipulation](https://arxiv.org/abs/1808.00177) | IJRR 2020 | [dblp](https://dblp.org/rec/journals/ijrr/OpenAI20) / [blog](https://openai.com/index/learning-dexterity/) |
+| 2018-02-26 | Multi-Goal RL, Shadow Hand, Sparse Rewards | OpenAI | [Multi-Goal Reinforcement Learning: Challenging Robotics Environments and Request for Research](https://arxiv.org/abs/1802.09464) | arXiv | [github](https://github.com/openai/gym) |
 
 #### Reward Design & State Estimation
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
+| 2026-02-14 | Contact Coverage, Count-Based Reward, Exploration | Shanghai AI Lab | [CCGE: Contact Coverage-Guided Exploration](https://arxiv.org/abs/2603.10971) | arXiv | [paper](https://arxiv.org/abs/2603.10971) |
+| 2025-11-10 | Tactile Equivariance, Residual Rotation, SO(2) | CMU / Boston University | [EquiTac: Residual Rotation Correction using Tactile Equivariance](https://arxiv.org/abs/2511.07381) | arXiv | [paper](https://arxiv.org/abs/2511.07381) |
 | 2025-10-09 | Human Video, Contact Rewards, Humanoid | Shanghai AI Lab | [DexMan](https://arxiv.org/abs/2510.08475) | arXiv | [paper](https://arxiv.org/abs/2510.08475) |
+| 2025-09-22 | Tactile Feedback, Reward Shaping, Finger Gaiting | University of Southern Denmark | [Tac2Motion](https://arxiv.org/abs/2509.17812) | arXiv | [video](https://youtu.be/poeJBPR7urQ) |
+| 2025-03-06 | Real-World RL, Dexterous Grasping, Online | Beihang University | [Dexterous Grasping with Real-World Robotic Reinforcement Learning](https://arxiv.org/abs/2503.04014) | arXiv | [paper](https://arxiv.org/abs/2503.04014) |
 | 2024-07-10 | Tactile Skin, Shear/Normal Force, Translation | Meta FAIR | [Learning In-Hand Translation Using Tactile Skin With Shear and Normal Force Sensing](https://arxiv.org/abs/2407.07885) | arXiv | [project](https://jessicayin.github.io/tactile-skin-rl/) |
-| 2023-09-18 | Vision+Touch, State Estimation, Rotation | UC Berkeley | [General In-Hand Object Rotation with Vision and Touch](https://arxiv.org/abs/2309.09979) | CoRL 2023 | [project](https://haozhi.io/rotateit/) |
+| 2023-09-18 | Vision+Touch, State Estimation, Rotation | UC Berkeley | [RotateIt: General In-Hand Object Rotation with Vision and Touch](https://arxiv.org/abs/2309.09979) | CoRL 2023 | [project](https://haozhi.io/rotateit/) |
 | 2017-09-28 | Demonstrations, Sparse Rewards, Adroit | University of Washington | [Learning Complex Dexterous Manipulation with Deep RL and Demonstrations](https://arxiv.org/abs/1709.10087) | RSS 2018 | [github](https://github.com/aravindr93/hand_dapg) |
 
 <a id="32-imitation-learning"></a>
@@ -295,6 +357,11 @@ Learning, planning, control, and data-pipeline methods for dexterous manipulatio
 | 2024-01-08 | Bimanual, Mobile, Low-Cost Teleop | Stanford | [Mobile ALOHA](https://arxiv.org/abs/2401.02117) | arXiv | [project](https://mobile-aloha.github.io/) |
 | 2023-04-13 | ACT, Action Chunking, Bimanual | Stanford | [Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware](https://arxiv.org/abs/2304.13705) | RSS 2023 | [project](https://tonyzhaozh.github.io/aloha/) / [github](https://github.com/tonyzhaozh/act) |
 | 2022-03-24 | Dexterous Imitation, RGB Teleop, Allegro | NYU | [Dexterous Imitation Made Easy: A Learning-Based Framework for Efficient Dexterous Manipulation](https://arxiv.org/abs/2203.13251) | arXiv | [project](https://nyu-robot-learning.github.io/dime/) |
+| 2025-04-08 | LLM Reward, Tactile, In-Hand Rotation | University of Bristol | [Text2Touch: Tactile In-Hand Manipulation with LLM-Designed Reward Functions](https://arxiv.org/abs/2504.06156) | CoRL 2025 | [paper](https://arxiv.org/abs/2504.06156) |
+| 2025-04-05 | Robust Grasping, Single-View, Adaptive | Seoul National University | [RobustDexGrasp: Robust Dexterous Grasping of General Objects from Single-view Perception](https://arxiv.org/abs/2504.05287) | CoRL 2025 | [paper](https://arxiv.org/abs/2504.05287) |
+| 2026-02-26 | Bimanual, Monocular Video, Policy Learning | Shanghai AI Lab | [DexImit: Learning Bimanual Dexterous Manipulation from Monocular Human Videos](https://arxiv.org/abs/2602.10105) | arXiv | [paper](https://arxiv.org/abs/2602.10105) |
+| 2025-02-09 | Correspondence, Visuomotor, Real-World | Peking University | [CordViP: Correspondence-based Visuomotor Policy for Dexterous Manipulation in Real-World](https://arxiv.org/abs/2502.08449) | RSS 2025 | [paper](https://arxiv.org/abs/2502.08449) |
+| 2025-11-20 | Interaction-Aware, Diffusion, Adaptive | Tsinghua | [DexHandDiff: Interaction-aware Diffusion Planning for Adaptive Dexterous Manipulation](https://arxiv.org/abs/2411.18562) | CVPR 2025 | [paper](https://arxiv.org/abs/2411.18562) |
 
 #### Diffusion Policies
 
@@ -302,6 +369,11 @@ Learning, planning, control, and data-pipeline methods for dexterous manipulatio
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
 | 2025-05-21 | 3D Diffusion, Point Cloud, Dexterous | Zhejiang University | [DP3: 3D Diffusion Policy for Generalizable Visuomotor Policy Learning](https://arxiv.org/abs/2403.03954) | ICRA 2025 | [project](https://3d-diffusion-policy.github.io/) |
 | 2024-12-19 | Dexterous Fine-Tuning, Real-World Hands | UC Berkeley | [DEFT: Dexterous Fine-Tuning for Real-World Hand Policies](https://dexterous-finetuning.github.io/) | Website | [project](https://dexterous-finetuning.github.io/) |
+| 2025-07-30 | Sim-to-Real, Clutter, Diffusion Policy | Tsinghua | [ClutterDexGrasp: A Sim-to-Real System for General Dexterous Grasping in Cluttered Scenes](https://arxiv.org/abs/2504.05287) | CoRL 2025 | [project](https://clutterdexgrasp.github.io/) |
+| 2025-08-17 | Long-Horizon, Synthetic Data, Skill Routing | HKU | [LodeStar: Long-horizon Dexterity via Synthetic Data Augmentation from Human Demonstrations](https://arxiv.org/abs/2508.17547) | arXiv | [paper](https://arxiv.org/abs/2508.17547) |
+| 2025-07-01 | Flow Matching, Uncertainty-Aware, Dexterous Grasping | TUM | [FFHFlow: Diverse and Uncertainty-Aware Dexterous Grasp Generation via Flow Variational Inference](https://arxiv.org/abs/2407.15161) | ICRA 2025 | [paper](https://arxiv.org/abs/2407.15161) |
+| 2025-08-15 | Force Closure, Differentiable Optimization, Grasp Synthesis | ETH Zurich | [GraspQP: Differentiable Optimization of Force Closure for Diverse and Robust Dexterous Grasping](https://arxiv.org/abs/2508.15002) | IROS 2025 | [paper](https://arxiv.org/abs/2508.15002) |
+| 2025-03-01 | Soft Hands, Diffusion Policy, Proprioceptive | University of Michigan | [KineSoft: Learning Proprioceptive Manipulation Policies with Soft Robot Hands](https://arxiv.org/abs/2503.01078) | ICRA 2025 | [paper](https://arxiv.org/abs/2503.01078) |
 | 2024-10-31 | Bimanual, Diffusion Foundation, Manipulation | Tsinghua | [RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation](https://arxiv.org/abs/2410.07864) | arXiv | [project](https://rdt-robotics.github.io/rdt-robotics/) / [github](https://github.com/thu-ml/RoboticsDiffusionTransformer) |
 | 2023-03-01 | Diffusion Policy, Visuomotor, Robot Learning | Columbia | [Diffusion Policy: Visuomotor Policy Learning via Action Diffusion](https://arxiv.org/abs/2303.04137) | RSS 2023 | [project](https://diffusion-policy.cs.columbia.edu/) / [github](https://github.com/real-stanford/diffusion_policy) |
 
@@ -314,6 +386,9 @@ Learning, planning, control, and data-pipeline methods for dexterous manipulatio
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
 | 2026-03-01 | DexHand, VLM, Planning | Tsinghua | [UniHM: Unified Dexterous Hand Manipulation with Vision Language Model](https://arxiv.org/abs/2603.00732) | arXiv | [project](https://unihm.github.io/) |
+| 2026-03-26 | Universal Dexterous, Egocentric Video, Foundation Model | Shanghai AI Lab | [UniDex: A Robot Foundation Suite for Universal Dexterous Hand Control from Egocentric Human Videos](https://arxiv.org/abs/2603.22264) | CVPR 2026 | [paper](https://arxiv.org/abs/2603.22264) |
+| 2025-05-03 | Grasp Foundation Model, 1B Synthetic Data, VLA | Peking University | [GraspVLA: A Grasping Foundation Model Pre-trained on Billion-scale Synthetic Action Data](https://arxiv.org/abs/2505.03233) | arXiv | [project](https://graspvla.github.io/) |
+| 2026-01-15 | Dexterous Grasping, VLA, Open-Vocabulary | Shanghai AI Lab | [DexGraspVLA: A Vision-Language-Action Framework Towards General Dexterous Grasping](https://arxiv.org/abs/2502.20900) | AAAI 2026 | [paper](https://arxiv.org/abs/2502.20900) |
 | 2024-06-13 | OpenVLA, Generalist Policy, Robot Learning | Stanford | [OpenVLA: An Open-Source Vision-Language-Action Model](https://arxiv.org/abs/2406.09246) | CoRL 2024 | [project](https://openvla.github.io/) / [github](https://github.com/openvla/openvla) |
 | 2023-10-13 | Cross-Embodiment, RT-X, Large-Scale | Google DeepMind | [Open X-Embodiment: Robotic Learning Datasets and RT-X Models](https://arxiv.org/abs/2310.08864) | ICRA 2024 | [project](https://robotics-transformer-x.github.io/) |
 
@@ -322,8 +397,10 @@ Learning, planning, control, and data-pipeline methods for dexterous manipulatio
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
 | 2026-03-12 | Humanoid, Demonstrations, Reproducible | Physical Intelligence Lab | [HumDex: Humanoid Dexterous Manipulation Made Easy](https://arxiv.org/abs/2603.12260) | arXiv | [github](https://github.com/physical-superintelligence-lab/HumDex) |
+| 2026-02-18 | Canonical Hand, Cross-Embodiment, LEAP Hand | UNC Chapel Hill | [One Hand to Rule Them All: Canonical Representations for Unified Dexterous Manipulation](https://arxiv.org/abs/2602.16712) | arXiv | [project](https://zhenyuwei2003.github.io/OHRA/) |
 | 2025-07-05 | Human Hand, Few-Shot, Robot-Free | Peking University | [RwoR: Generating Robot Demonstrations from Human Hand Collection for Policy Learning without Robot](https://arxiv.org/abs/2507.03930) | IROS 2025 | [project](https://rwor.github.io/) |
 | 2024-10-31 | Egocentric Video, Imitation, Scaling | Georgia Tech | [EgoMimic: Scaling Imitation Learning via Egocentric Video](https://arxiv.org/abs/2410.24221) | arXiv | [project](https://egomimic.github.io/) / [github](https://github.com/SimarKareer/EgoMimic) |
+| 2025-08-14 | Gaussian Splatting, Fruit Inspection, Dexterous Manipulation | Stanford | [DexFruit: Dexterous Manipulation and Gaussian Splatting Inspection of Fruit](https://arxiv.org/abs/2508.07118) | RA-L 2026 | [paper](https://arxiv.org/abs/2508.07118) |
 
 <a id="34-trajectory-optimization--optimal-control"></a>
 
@@ -333,13 +410,18 @@ Learning, planning, control, and data-pipeline methods for dexterous manipulatio
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
+| 2025-02-11 | In-Grasp Movement, Trajectory Optimization, RGMC | Tsinghua | [Robotic In-Hand Manipulation for Large-Range Precise Object Movement: The RGMC Champion Solution](https://arxiv.org/abs/2502.07472) | RA-L | [project](https://rgmc-xl-team.github.io/ingrasp_manipulation) |
 | 2022-09-28 | Trajectory Optimization, RL, Dexterous | University of Washington | [Solving Complex Dexterous Manipulation Tasks With Trajectory Optimisation and Reinforcement Learning](https://dexterous-manipulation.github.io/) | CoRL 2022 | [project](https://dexterous-manipulation.github.io/) |
 
 #### Kinematics & Motion Planning
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
+| 2025-11-14 | Physics-Informed, Retargeting, Scalable | Columbia University | [SPIDER: Scalable Physics-Informed Dexterous Retargeting](https://arxiv.org/abs/2511.09484) | arXiv | [paper](https://arxiv.org/abs/2511.09484) |
+| 2024-06-06 | Teleoperation, DeltaHand, In-Hand | CMU | [Tilde: Teleoperation for Dexterous In-Hand Manipulation Learning with a DeltaHand](https://arxiv.org/abs/2405.18804) | RSS 2024 | [paper](https://arxiv.org/abs/2405.18804) |
 | 2024-03-12 | Mocap, Retargeting, DexHand | Stanford | [DexCap: Scalable and Portable Mocap Data Collection System for Dexterous Manipulation](https://arxiv.org/abs/2403.07788) | arXiv | [github](https://github.com/j96w/DexCap) |
+| 2025-06-09 | Human Videos, 4D Reconstruction, Dexterous Policies | CMU | [Dexterous Manipulation Policies from RGB Human Videos via 4D Hand-Object Trajectory Reconstruction](https://arxiv.org/abs/2602.09013) | arXiv | [project](https://videomanip.github.io/) |
+| 2024-04-15 | Human Videos, Visuomotor, Sim2Real | UC San Diego | [ViViDex: Learning Vision-based Dexterous Manipulation from Human Videos](https://arxiv.org/abs/2404.15709) | arXiv | [project](https://vividex.github.io/) |
 | 1994-01-01 | Kinematics, Grasping, Classic Textbook | Caltech | [A Mathematical Introduction to Robotic Manipulation](https://www.cds.caltech.edu/~murray/mlswiki/index.php/Main_Page) | Book | [pdf](https://www.cds.caltech.edu/~murray/books/MLS/pdf/mls94-complete.pdf) |
 
 <a id="35-data-collection-paradigms"></a>
@@ -379,7 +461,14 @@ Learning, planning, control, and data-pipeline methods for dexterous manipulatio
 | 2025-10-09 | Human Videos, Bimanual, Generated Videos | Shanghai AI Lab | [DexMan](https://arxiv.org/abs/2510.08475) | arXiv | [paper](https://arxiv.org/abs/2510.08475) |
 | 2024-10-31 | Egocentric Video, Imitation, Scaling | Georgia Tech | [EgoMimic](https://arxiv.org/abs/2410.24221) | arXiv | [project](https://egomimic.github.io/) |
 | 2022-03-30 | Human Video, Telekinesis, Dexterous Hand | Stanford | [Robotic Telekinesis: Learning a Robotic Hand Imitator by Watching Humans on YouTube](https://arxiv.org/abs/2202.10448) | RSS 2022 | [project](https://robotic-telekinesis.github.io/) |
+| 2025-07-02 | Manipulation Types, Teleoperation, Dexterity | Tsinghua | [TypeTele: Releasing Dexterity in Teleoperation by Dexterous Manipulation Types](https://arxiv.org/abs/2507.01857) | IROS 2025 | [paper](https://arxiv.org/abs/2507.01857) |
+| 2025-04-08 | Neural Retargeting, Ultrafast, 1kHz | Physical Intelligence | [GeoRT: Geometric Retargeting for Neural Hand Retargeting](https://arxiv.org/abs/2504.04259) | IROS 2025 | [paper](https://arxiv.org/abs/2504.04259) |
 | 2021-08-12 | Human Video, Retargeting, DexHand | UC San Diego | [DexMV: Imitation Learning for Dexterous Manipulation from Human Videos](https://arxiv.org/abs/2108.05877) | ECCV 2022 | [project](https://yzqin.github.io/dexmv/) |
+| 2025-09-18 | Scalable Exploration, Reference-Scoped, Neural Control | Tsinghua | [Dexplore: Scalable Neural Control for Dexterous Manipulation from Reference-Scoped Exploration](https://arxiv.org/abs/2509.09671) | CoRL 2025 | [paper](https://arxiv.org/abs/2509.09671) |
+| 2023-09-04 | Data Reuse, Bootstrapping, Real-World RL | Google DeepMind | [REBOOT: Reuse Data for Bootstrapping Efficient Real-World Dexterous Manipulation](https://arxiv.org/abs/2309.03322) | CoRL 2023 | [paper](https://arxiv.org/abs/2309.03322) |
+| 2025-04-15 | Human Videos, Visuomotor, Sim2Real | UC San Diego | [ViViDex: Learning Vision-based Dexterous Manipulation from Human Videos](https://arxiv.org/abs/2404.15709) | ICRA 2025 | [project](https://vividex.github.io/) |
+| 2025-04-09 | Egocentric Video, Manipulation Priors, Affordance | ETH Zurich | [MAPLE: Encoding Dexterous Robotic Manipulation Priors Learned From Egocentric Videos](https://arxiv.org/abs/2504.06084) | arXiv | [paper](https://arxiv.org/abs/2504.06084) |
+| 2023-12-07 | Functional Grasping, Affordance, Zero-Shot | UC Berkeley | [Dexterous Functional Grasping](https://arxiv.org/abs/2312.02975) | CoRL 2023 | [paper](https://arxiv.org/abs/2312.02975) |
 
 <h2 id="-4-infrastructure">🛠️ 4. Infrastructure</h2>
 
@@ -416,6 +505,7 @@ Reusable simulators, benchmark suites, datasets, robot descriptions, and trainin
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
 | 2023-10-24 | Multi-Object, DexHand, Synthetic Dataset | Peking University | [Grasp Multiple Objects with One Hand](https://arxiv.org/abs/2310.15599) | RA-L 2024 | [project](https://multigrasp.github.io/) |
+| 2025-04-18 | Grasp Taxonomy, Type-Conditional, Large-Scale | Shanghai AI Lab | [Dexonomy: Synthesizing All Dexterous Grasp Types in a Grasp Taxonomy](https://arxiv.org/abs/2504.18829) | RSS 2025 | [paper](https://arxiv.org/abs/2504.18829) |
 | 2023-01-30 | Large-Scale, DexHand, Grasp Synthesis | Peking University | [DexGraspNet: A Large-Scale Robotic Dexterous Grasp Dataset for General Objects Based on Simulation](https://arxiv.org/abs/2210.02697) | ICRA 2023 | [project](https://pku-epic.github.io/DexGraspNet/) / [github](https://github.com/PKU-EPIC/DexGraspNet) |
 | 2022-10-03 | Hand-Agnostic, MultiDex, Grasp Synthesis | BIGAI | [GenDexGrasp: Generalizable Dexterous Grasping](https://arxiv.org/abs/2210.00722) | ICRA 2023 | [project](https://sites.google.com/view/gendexgrasp/home) / [github](https://github.com/tengyu-liu/GenDexGrasp) |
 | 2021-04-16 | Hand-Object, RGB-D, Pose, YCB | NVIDIA | [DexYCB: A Benchmark for Capturing Hand Grasping of Objects](https://arxiv.org/abs/2104.04631) | CVPR 2021 | [project](https://dex-ycb.github.io/) |
@@ -434,6 +524,7 @@ Reusable simulators, benchmark suites, datasets, robot descriptions, and trainin
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
 | 2025-04-25 | Platform, Dataset, Benchmark, Simulation | Peking University | [RoboVerse: Towards a Unified Platform, Dataset and Benchmark for Scalable and Generalizable Robot Learning](https://arxiv.org/abs/2504.18904) | RSS 2025 | [project](https://roboverseorg.github.io/) / [github](https://github.com/RoboVerseOrg) |
+| 2025-02-11 | In-Grasp Manipulation, Benchmark, Dexterous Fingers | Tsinghua | [Robotic In-Hand Manipulation for Large-Range Precise Object Movement: The RGMC Champion Solution](https://arxiv.org/abs/2502.07472) | RA-L | [project](https://rgmc-xl-team.github.io/ingrasp_manipulation) |
 | 2024-03-19 | In-the-Wild, Large-Scale, Robot Data | Stanford | [DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset](https://arxiv.org/abs/2403.12945) | arXiv | [project](https://droid-dataset.github.io/) |
 | 2023-10-13 | Cross-Embodiment, RT-X, Multi-Dataset | Google DeepMind | [Open X-Embodiment](https://arxiv.org/abs/2310.08864) | ICRA 2024 | [project](https://robotics-transformer-x.github.io/) |
 | 2022-10-24 | Deformable, Differentiable Physics, Benchmark | UC Berkeley | [DaXBench](https://arxiv.org/abs/2210.13066) | ICLR 2023 | [github](https://github.com/AdaCompNUS/DaXBench) |
