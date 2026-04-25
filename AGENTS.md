@@ -171,6 +171,17 @@ Use compact summaries in the table itself and keep verbose explanation out of th
 
 ## Maintenance workflow
 
+### News policy
+
+Do **not** add `News` entries for routine paper/resource updates.
+
+Only update `News` for major changes or milestone-level progress, such as:
+- repository initialization
+- adding a large new module, major top-level section, or substantial taxonomy expansion
+- major restructuring that changes how readers navigate the list
+
+Adding a few papers, fixing metadata, or refreshing links should not create a `News` item.
+
 When adding entries:
 1. decide the primary section first
 2. check whether the resource should also appear in a second section
