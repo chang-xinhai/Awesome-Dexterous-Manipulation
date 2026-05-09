@@ -198,6 +198,7 @@ Hand-centric capabilities, organized by manipulation taxonomy rather than by onl
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
+| 2026-05-07 | HOI Synthesis, Motion Refinement, Sim-to-Real | KIST / KAIST | [DexSynRefine: Synthesizing and Refining Human-Object Interaction Motion for Physically Feasible Dexterous Robot Actions](https://arxiv.org/abs/2605.05925) | arXiv | [paper](https://arxiv.org/abs/2605.05925) |
 | 2026-04-13 | Monocular RGB, 3DGS, Visual Sim2Real | ETH Zurich | [ViserDex: Visual Sim-to-Real for Robust Dexterous In-hand Reorientation](https://arxiv.org/abs/2604.11138) | arXiv | [project](https://rffr.leggedrobotics.com/works/viserdex/) |
 | 2026-02-14 | Contact Coverage, Exploration, General-Purpose | Shanghai AI Lab | [Contact Coverage-Guided Exploration for General-Purpose Dexterous Manipulation](https://arxiv.org/abs/2603.10971) | arXiv | [paper](https://arxiv.org/abs/2603.10971) |
 | 2026-02-09 | Cross-Embodiment, Transformer, LEAP Hand | HKUST(GZ) | [DexFormer: Cross-Embodied Dexterous Manipulation via History-Conditioned Transformer](https://arxiv.org/abs/2602.08278) | arXiv | [project](https://davidlxu.github.io/DexFormer-web/) |
@@ -208,8 +209,9 @@ Hand-centric capabilities, organized by manipulation taxonomy rather than by onl
 | 2025-06-03 | Foundation Controller, Motion Primitives, RL Pretraining | Physical Intelligence | [DexterityGen: Foundation Controller for Unprecedented Dexterity](https://arxiv.org/abs/2502.04307) | arXiv | [project](https://physical-intelligence.github.io/) |
 | 2025-06-26 | 1B Demonstrations, Synthetic Data, Dexterous Manipulation | UC San Diego | [Dex1B: Learning with 1B Demonstrations for Dexterous Manipulation](https://arxiv.org/abs/2506.17198) | arXiv | [project](https://dex1b.github.io/) |
 | 2025-06-09 | Micro-vibrations, Fingertip, In-hand Reconfiguration | UConn | [Vib2Move: In-hand Object Reconfiguration via Fingertip Micro-vibrations](https://arxiv.org/abs/2506.10923) | arXiv | [paper](https://arxiv.org/abs/2506.10923) |
+| 2025-05-19 | Grasp Selection, RL Critic, Autonomous Pipeline | TU Munich / DLR | [Composing Dextrous Grasping and In-hand Manipulation via Scoring with a Reinforcement Learning Critic](https://arxiv.org/abs/2505.13253) | ICRA 2025 | [project](https://aidx-lab.org/manipulation/icra25) |
 | 2025-05-12 | In-the-Wild, DexHand, Human-to-Robot | CMU | [DexWild](https://dexwild.github.io/) | RSS 2025 | [project](https://dexwild.github.io/) |
-| 2026-02-25 | Geometric Representations, Sim-to-Real, Hand-Object | Shanghai AI Lab | [DexRepNet++: Learning Dexterous Robotic Manipulation with Geometric and Spatial Hand-Object Representations](https://arxiv.org/abs/2602.21811) | arXiv | [paper](https://arxiv.org/abs/2602.21811) |
+| 2026-02-25 | Geometric Representations, Sim-to-Real, Hand-Object | Shanghai AI Lab | [DexRepNet++: Learning Dexterous Robotic Manipulation with Geometric and Spatial Hand-Object Representations](https://arxiv.org/abs/2602.21811) | T-RO 2026 | [paper](https://arxiv.org/abs/2602.21811) |
 | 2025-01-09 | Any-Axis, Hierarchical Skills, Pose Estimation | UC Berkeley | [From Simple to Complex Skills: The Case of In-Hand Object Reorientation](https://arxiv.org/abs/2501.05439) | arXiv | [project](https://dexhier.github.io/) |
 | 2024-07-10 | In-Hand Translation, Tactile Skin, Shear | Meta FAIR | [Learning In-Hand Translation Using Tactile Skin With Shear and Normal Force Sensing](https://arxiv.org/abs/2407.07885) | arXiv | [project](https://jessicayin.github.io/tactile-skin-rl/) |
 | 2025-09-18 | Scalable Neural Control, Reference-Scoped, MoCap | Georgia Tech | [Dexplore: Scalable Neural Control for Dexterous Manipulation from Reference-Scoped Exploration](https://arxiv.org/abs/2509.09671) | CoRL 2025 | [paper](https://arxiv.org/abs/2509.09671) |
@@ -243,8 +245,9 @@ Hand-centric capabilities, organized by manipulation taxonomy rather than by onl
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
-| 2014-05-31 | Extrinsic Dexterity, External Forces, Robot Hand | Carnegie Mellon | [Extrinsic Dexterity: In-Hand Manipulation with External Forces](https://publications.ri.cmu.edu/extrinsic-dexterity-in-hand-manipulation-with-external-forces) | ICRA 2014 | [paper](https://publications.ri.cmu.edu/extrinsic-dexterity-in-hand-manipulation-with-external-forces) |
+| 2026-02-18 | Zero-Shot Tool Manipulation, Object-Centric, Sim2Real | Stanford | [SimToolReal: An Object-Centric Policy for Zero-Shot Dexterous Tool Manipulation](https://arxiv.org/abs/2602.16863) | arXiv | [project](https://simtoolreal.github.io/) |
 | 2025-09-23 | Articulated Tools, Cross-Attention, Sim2Real | UC San Diego | [In-Hand Manipulation of Articulated Tools with Dexterous Robot Hands with Sim-to-Real Transfer](https://arxiv.org/abs/2509.23075) | IROS 2025 | [paper](https://arxiv.org/abs/2509.23075) |
+| 2014-05-31 | Extrinsic Dexterity, External Forces, Robot Hand | Carnegie Mellon | [Extrinsic Dexterity: In-Hand Manipulation with External Forces](https://publications.ri.cmu.edu/extrinsic-dexterity-in-hand-manipulation-with-external-forces) | ICRA 2014 | [paper](https://publications.ri.cmu.edu/extrinsic-dexterity-in-hand-manipulation-with-external-forces) |
 
 <a id="22-non-prehensile-manipulation"></a>
 
