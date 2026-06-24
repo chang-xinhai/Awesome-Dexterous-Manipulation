@@ -14,8 +14,7 @@
   <a href="#-2-dexterity-capabilities--tasks"><img alt="Tasks" src="https://img.shields.io/badge/Tasks-In--Hand%20Dexterity-b8e6c9?style=for-the-badge"></a>
   <a href="#-3-methodology"><img alt="Methods" src="https://img.shields.io/badge/Methods-Learning%20%26%20Control-ffd6a5?style=for-the-badge"></a>
   <a href="#-4-infrastructure"><img alt="Infrastructure" src="https://img.shields.io/badge/Infrastructure-Sim%20%26%20Data-d7c5ff?style=for-the-badge"></a>
-  <a href="#-5-enabling-tasks"><img alt="Enabling Tasks" src="https://img.shields.io/badge/Enabling-Tasks-c7f9cc?style=for-the-badge"></a>
-  <a href="#-6-surveys--reviews"><img alt="Surveys" src="https://img.shields.io/badge/Surveys-Field%20Map-ffb7b2?style=for-the-badge"></a>
+  <a href="#-5-surveys--reviews"><img alt="Surveys" src="https://img.shields.io/badge/Surveys-Field%20Map-ffb7b2?style=for-the-badge"></a>
 </p>
 
 </div>
@@ -47,11 +46,16 @@ Start here if you want the shortest path through the field.
 | Build with simulators | [Isaac Lab](https://isaac-sim.github.io/IsaacLab/), [MuJoCo](https://mujoco.org/), [SAPIEN](https://sapien.ucsd.edu/), [PyBullet](https://github.com/bulletphysics/bullet3) |
 | Explore data collection | [DexCap](https://arxiv.org/abs/2403.07788), [DexUMI](https://arxiv.org/abs/2505.21864), [DexWild](https://dexwild.github.io/), [Open-TeleVision](https://arxiv.org/abs/2407.01512) |
 
+## News
+
+- 2026-06-24: Realigned the README navigation to the canonical five-section taxonomy and folded enabling-system material into Infrastructure.
+
 ## Contents
 
 - [Awesome-Dexterous-Manipulation](#awesome-dexterous-manipulation)
   - [About](#about)
   - [Must Read](#must-read)
+  - [News](#news)
   - [Hardware & Sensor Systems](#-1-hardware--sensor-systems)
     - [Dexterous Hands](#11-dexterous-hands)
     - [Tactile Sensors](#12-tactile-sensors)
@@ -70,13 +74,13 @@ Start here if you want the shortest path through the field.
   - [Infrastructure](#-4-infrastructure)
     - [Simulators](#41-simulators)
     - [Benchmarks & Datasets](#42-benchmarks--datasets)
-  - [Enabling Tasks](#-5-enabling-tasks)
-    - [Grasp & Initialization](#51-grasp--initialization)
-    - [Retargeting](#52-retargeting)
-    - [Perception & Tracking](#53-perception--tracking)
-    - [Calibration & Modeling](#54-calibration--modeling)
-    - [Evaluation & Robustness](#55-evaluation--robustness)
-  - [Surveys & Reviews](#-6-surveys--reviews)
+    - [Enabling Methods & System Utilities](#43-enabling-methods--system-utilities)
+      - [Grasp & Initialization](#431-grasp--initialization)
+      - [Retargeting](#432-retargeting)
+      - [Perception & Tracking](#433-perception--tracking)
+      - [Calibration & Modeling](#434-calibration--modeling)
+      - [Evaluation & Robustness](#435-evaluation--robustness)
+  - [Surveys & Reviews](#-5-surveys--reviews)
   - [Acknowledgement](#acknowledgement)
   - [Citation](#citation)
 
@@ -586,13 +590,17 @@ Reusable simulators, benchmark suites, datasets, robot descriptions, and trainin
 | 2020-04-15 | Dexterous Hand, Offline RL, Adroit | UC Berkeley | [D4RL: Datasets for Deep Data-Driven Reinforcement Learning](https://arxiv.org/abs/2004.07219) | arXiv | [github](https://github.com/Farama-Foundation/D4RL) |
 | 2019-10-24 | Manipulation Benchmark, Meta-World, RL | Stanford | [Meta-World: A Benchmark and Evaluation for Multi-Task and Meta Reinforcement Learning](https://arxiv.org/abs/1910.10897) | CoRL 2019 | [github](https://github.com/Farama-Foundation/Metaworld) |
 
-<h2 id="-5-enabling-tasks">🧭 5. Enabling Tasks</h2>
+<a id="-5-enabling-tasks"></a>
+<a id="43-enabling-methods--system-utilities"></a>
+
+### 4.3 Enabling Methods & System Utilities
 
 Adjacent tasks that often determine whether a dexterous manipulation system can be initialized, transferred, sensed, calibrated, and evaluated reliably.
 
 <a id="51-grasp--initialization"></a>
+<a id="431-grasp--initialization"></a>
 
-### 5.1 Grasp & Initialization
+#### Grasp & Initialization
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
@@ -608,8 +616,9 @@ Adjacent tasks that often determine whether a dexterous manipulation system can 
 | 2021-01-08 | Initial Grasp, Motion Planning, TriFinger | TTIC | [Grasp and Motion Planning for Dexterous Manipulation for the Real Robot Challenge](https://arxiv.org/abs/2101.02842) | arXiv | [challenge](https://real-robot-challenge.com/) |
 
 <a id="52-retargeting"></a>
+<a id="432-retargeting"></a>
 
-### 5.2 Retargeting
+#### Retargeting
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
@@ -625,8 +634,9 @@ Adjacent tasks that often determine whether a dexterous manipulation system can 
 | 2019-10-07 | Vision Teleop, Hand-Arm, DexHand | NVIDIA | [DexPilot: Vision Based Teleoperation of Dexterous Robotic Hand-Arm System](https://arxiv.org/abs/1910.03135) | arXiv | [project](https://sites.google.com/view/dex-pilot) |
 
 <a id="53-perception--tracking"></a>
+<a id="433-perception--tracking"></a>
 
-### 5.3 Perception & Tracking
+#### Perception & Tracking
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
@@ -651,8 +661,9 @@ Adjacent tasks that often determine whether a dexterous manipulation system can 
 | 2020-02-27 | Contact Feedback, GPU Simulation, 30Hz | NVIDIA | [In-Hand Object Pose Tracking via Contact Feedback and GPU-Accelerated Robotic Simulation](https://arxiv.org/abs/2002.12160) | ICRA 2020 | [project](https://sites.google.com/view/in-hand-object-pose-tracking/) |
 
 <a id="54-calibration--modeling"></a>
+<a id="434-calibration--modeling"></a>
 
-### 5.4 Calibration & Modeling
+#### Calibration & Modeling
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
@@ -667,8 +678,9 @@ Adjacent tasks that often determine whether a dexterous manipulation system can 
 | 1989-06 | Hand-Eye, Tsai-Lenz, Classic | IBM T. J. Watson Research Center | [A New Technique for Fully Autonomous and Efficient 3D Robotics Hand/Eye Calibration](https://doi.org/10.1109/70.34770) | T-RA 1989 | [doi](https://doi.org/10.1109/70.34770) |
 
 <a id="55-evaluation--robustness"></a>
+<a id="435-evaluation--robustness"></a>
 
-### 5.5 Evaluation & Robustness
+#### Evaluation & Robustness
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
@@ -681,7 +693,8 @@ Adjacent tasks that often determine whether a dexterous manipulation system can 
 | 2019-10-16 | Rubik's Cube, Vision, Domain Randomization | OpenAI | [Solving Rubik's Cube with a Robot Hand](https://arxiv.org/abs/1910.07113) | arXiv | [blog](https://openai.com/index/solving-rubiks-cube/) |
 | 2018-08-01 | In-Hand Manipulation, Domain Randomization | OpenAI | [Learning Dexterous In-Hand Manipulation](https://arxiv.org/abs/1808.00177) | IJRR 2020 | [blog](https://openai.com/index/learning-dexterity/) |
 
-<h2 id="-6-surveys--reviews">📚 6. Surveys & Reviews</h2>
+<a id="-6-surveys--reviews"></a>
+<h2 id="-5-surveys--reviews">📚 5. Surveys & Reviews</h2>
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
