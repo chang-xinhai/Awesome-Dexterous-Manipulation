@@ -98,6 +98,7 @@ Physical systems and sensing layers for dexterous manipulation.
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
 | 2026-03-26 | Tendon-Driven, Open Source, Wrist+Abduction | Cornell University | [Ruka-v2: Tendon Driven Open-Source Dexterous Hand with Wrist and Abduction for Robot Learning](https://arxiv.org/abs/2603.26660) | arXiv | [project](https://ruka-hand-v2.github.io/) |
 | 2026-03-06 | Cable-Driven, Force Feedback, Teleoperation | Zhejiang University | [CDF-Glove: A Cable-Driven Force Feedback Glove for Dexterous Teleoperation](https://arxiv.org/abs/2603.05804) | arXiv | [project](https://cdfglove.github.io/) |
+| 2026-02-05 | Fingernails, Hybrid Fingertip, Precise Manipulation | UT Austin | [PLATO Hand: Shaping Contact Behavior with Fingernails for Precise Manipulation](https://arxiv.org/abs/2602.05156) | RA-L 2026 | [project](https://platohand.github.io/) |
 | 2025-10-14 | Spatial Wrench, Haptic Glove, Contact-Rich | Tsinghua | [Glovity: Learning Dexterous Contact-Rich Manipulation via Spatial Wrench Feedback Teleoperation System](https://arxiv.org/abs/2510.09229) | arXiv | [project](https://glovity.github.io/) |
 | 2025-09-25 | Suction Cups, LEAP Hand, Teleoperation | University of Edinburgh | [Suction Leap-Hand: Suction Cups on a Multi-fingered Hand Enable Embodied Dexterity and In-Hand Teleoperation](https://arxiv.org/abs/2509.20646) | arXiv | [paper](https://arxiv.org/abs/2509.20646) |
 | 2025-06-09 | Low-Cost, 20-DoF, Whole-Hand Perception | Nankai University | [RAPID Hand: A Robust, Affordable, Perception-Integrated, Dexterous Manipulation Platform](https://arxiv.org/abs/2506.07490) | NeurIPS 2025 | [paper](https://arxiv.org/abs/2506.07490) |
@@ -164,6 +165,7 @@ Physical systems and sensing layers for dexterous manipulation.
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
+| 2026-06-25 | Vibro-Tactile, Contact/Slip, Reactive Dexterity | CMU | [VibeAct: Vibration to Actions for Contact-Rich Reactive Robot Dexterity](https://arxiv.org/abs/2606.27344) | arXiv | [project](https://vibeact.github.io/) |
 | 2026-04-26 | Diffusion Policy, Visual-Tactile, Contact-Rich, Reactive, Tube | CMU / Stevens | [Tube Diffusion Policy: Reactive Visual-Tactile Policy Learning for Contact-rich Manipulation](https://arxiv.org/abs/2604.23609) | arXiv | [paper](https://arxiv.org/abs/2604.23609) |
 | 2026-02-10 | Normalizing Flow, Action-Chunked Critics, Real-World Fine-Tuning | ETH Zurich | [SERNF: Sample-Efficient Real-World Dexterous Policy Fine-Tuning via Action-Chunked Critics and Normalizing Flows](https://arxiv.org/abs/2602.09580) | arXiv | [paper](https://arxiv.org/abs/2602.09580) |
 | 2026-02-01 | Unified Force, Zero-Shot Transfer, Multi-Sensor | University of Liverpool | [UniForce: A Unified Latent Force Model for Robot Manipulation with Diverse Tactile Sensors](https://arxiv.org/abs/2602.01153) | arXiv | [paper](https://arxiv.org/abs/2602.01153) |
@@ -195,6 +197,8 @@ Physical systems and sensing layers for dexterous manipulation.
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
+| 2026-06-23 | Vision+Proprioception, Contact Estimation, In-Hand | IIIT Hyderabad | [NoContactNoWorries: Estimating Contact through Vision and Proprioception for In-Hand Dexterous Manipulation](https://arxiv.org/abs/2606.24450) | IROS 2026 | [project](https://soham2560.github.io/no-contact-no-worries/) |
+| 2026-05-20 | Joint-Only, Proprioceptive Transformer, Tendon-Driven Hand | ETH Zurich | [Learning Robust Dexterous In-Hand Manipulation from Joint Sensors with Proprioceptive Transformer](https://arxiv.org/abs/2605.21330) | arXiv | [paper](https://arxiv.org/abs/2605.21330) |
 | 2026-01-15 | Force, Compliance, Contact-Rich | Stanford | [In-the-Wild Compliant Manipulation with UMI-FT](https://arxiv.org/abs/2601.09988) | ICRA 2026 | [github](https://github.com/real-stanford/UMI-FT) |
 | 2025-09-23 | Force-Guided, Wrist F/T, Contact-Rich | GIST | [ManipForce](https://sites.google.com/view/manipforce/) | ICRA 2026 | [project](https://sites.google.com/view/manipforce/) / [github](https://github.com/gist-ailab/ManipForce) |
 | 2022-10-10 | Proprioception, Adaptation, Sim2Real | UC Berkeley | [HORA: In-Hand Object Rotation via Rapid Motor Adaptation](https://arxiv.org/abs/2210.04887) | arXiv | [paper](https://arxiv.org/abs/2210.04887) |
@@ -261,6 +265,7 @@ Hand-centric capabilities, organized by manipulation taxonomy rather than by onl
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
+| 2026-06-29 | Grasp Pretraining, Articulated Tools, DexCraft | CMU | [From Grasps to Dexterity: Large-Scale Grasp Pretraining for Dexterous Manipulation](https://arxiv.org/abs/2606.30749) | arXiv | [project](https://yingyuan0414.github.io/grasp2dexterity/) |
 | 2026-02-18 | Zero-Shot Tool Manipulation, Object-Centric, Sim2Real | Stanford | [SimToolReal: An Object-Centric Policy for Zero-Shot Dexterous Tool Manipulation](https://arxiv.org/abs/2602.16863) | arXiv | [project](https://simtoolreal.github.io/) |
 | 2025-09-23 | Articulated Tools, Cross-Attention, Sim2Real | UC San Diego | [In-Hand Manipulation of Articulated Tools with Dexterous Robot Hands with Sim-to-Real Transfer](https://arxiv.org/abs/2509.23075) | IROS 2025 | [paper](https://arxiv.org/abs/2509.23075) |
 | 2014-05-31 | Extrinsic Dexterity, External Forces, Robot Hand | Carnegie Mellon | [Extrinsic Dexterity: In-Hand Manipulation with External Forces](https://publications.ri.cmu.edu/extrinsic-dexterity-in-hand-manipulation-with-external-forces) | ICRA 2014 | [paper](https://publications.ri.cmu.edu/extrinsic-dexterity-in-hand-manipulation-with-external-forces) |
@@ -430,6 +435,7 @@ Learning, planning, control, and data-pipeline methods for dexterous manipulatio
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
+| 2026-06-30 | Tactile VLA, Contact Prediction, Tactile-Action Control | Harbin Institute of Technology | [UniTacVLA: Unified Tactile Understanding and Prediction in Vision Language Action Models](https://arxiv.org/abs/2606.31723) | arXiv | [paper](https://arxiv.org/abs/2606.31723) |
 | 2026-05-07 | World Action Model, Object-Addressable, Slot-Based Attention | Southeast University | [OA-WAM: Object-Addressable World Action Model for Robust Robot Manipulation](https://arxiv.org/abs/2605.06481) | arXiv | [paper](https://arxiv.org/abs/2605.06481) |
 | 2026-05-07 | Triadic Relational Structure, VLA, Object-Hand-Task | NUS | [TriRelVLA: Triadic Relational Structure for Generalizable Embodied Manipulation](https://arxiv.org/abs/2605.05714) | arXiv | [paper](https://arxiv.org/abs/2605.05714) |
 | 2026-05-06 | Contact-Free, ToF Sensors, Grasp Stability, 86% Accuracy | Cornell | [Contact-Free Grasp Stability Prediction with In-Hand Time-of-Flight Sensors](https://arxiv.org/abs/2605.05461) | arXiv | [paper](https://arxiv.org/abs/2605.05461) |
@@ -508,6 +514,7 @@ Learning, planning, control, and data-pipeline methods for dexterous manipulatio
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
+| 2026-03-30 | Tactile Feedback Array, Magnetic MoCap, Glove Teleop | Shanghai AI Lab | [Feel Robot Feels: Tactile Feedback Array Glove for Dexterous Manipulation](https://arxiv.org/abs/2603.28542) | arXiv | [project](https://trap-1.github.io/TAG.github.io/) / [github](https://github.com/TRAP-1/TAG) |
 | 2025-02-11 | Haptic Glove, Force Feedback, Teleoperation | University of Bristol | [DOGlove: Dexterous Manipulation with a Low-Cost Open-Source Haptic Force Feedback Glove](https://arxiv.org/abs/2502.07730) | RSS 2025 | [project](https://do-glove.github.io/) |
 | 2024-08-21 | Visual-Exoskeleton, Retargeting, Teleop | UC San Diego | [ACE](https://arxiv.org/abs/2408.11805) | CoRL 2024 | [project](https://ace-teleop.github.io/) |
 | 2019-06-06 | Tactile Glove, Human Demonstrations, Grasp | MIT | [Learning the Signatures of the Human Grasp Using a Scalable Tactile Glove](https://www.nature.com/articles/s41586-019-1234-z) | Nature 2019 | [paper](https://www.nature.com/articles/s41586-019-1234-z) |
