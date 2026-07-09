@@ -165,6 +165,7 @@ Physical systems and sensing layers for dexterous manipulation.
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
+| 2026-07-08 | Tactile Foundation Model, Predictive+Reactive, DexHand | Harbin Institute of Technology | [TouchWorld: A Predictive and Reactive Tactile Foundation Model for Dexterous Manipulation](https://arxiv.org/abs/2607.07287) | arXiv | [paper](https://arxiv.org/abs/2607.07287) |
 | 2026-06-25 | Vibro-Tactile, Contact/Slip, Reactive Dexterity | CMU | [VibeAct: Vibration to Actions for Contact-Rich Reactive Robot Dexterity](https://arxiv.org/abs/2606.27344) | arXiv | [project](https://vibeact.github.io/) |
 | 2026-04-26 | Diffusion Policy, Visual-Tactile, Contact-Rich, Reactive, Tube | CMU / Stevens | [Tube Diffusion Policy: Reactive Visual-Tactile Policy Learning for Contact-rich Manipulation](https://arxiv.org/abs/2604.23609) | arXiv | [paper](https://arxiv.org/abs/2604.23609) |
 | 2026-02-10 | Normalizing Flow, Action-Chunked Critics, Real-World Fine-Tuning | ETH Zurich | [SERNF: Sample-Efficient Real-World Dexterous Policy Fine-Tuning via Action-Chunked Critics and Normalizing Flows](https://arxiv.org/abs/2602.09580) | arXiv | [paper](https://arxiv.org/abs/2602.09580) |
@@ -197,6 +198,7 @@ Physical systems and sensing layers for dexterous manipulation.
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
+| 2026-07-03 | Motor Current, Contact Feedback, Compliant Dexterity | UNC Chapel Hill | [Current as Touch: Proprioceptive Contact Feedback for Compliant Dexterous Manipulation](https://arxiv.org/abs/2607.03529) | arXiv | [project](https://cat.chenyangma.com/) |
 | 2026-06-23 | Vision+Proprioception, Contact Estimation, In-Hand | IIIT Hyderabad | [NoContactNoWorries: Estimating Contact through Vision and Proprioception for In-Hand Dexterous Manipulation](https://arxiv.org/abs/2606.24450) | IROS 2026 | [project](https://soham2560.github.io/no-contact-no-worries/) |
 | 2026-05-20 | Joint-Only, Proprioceptive Transformer, Tendon-Driven Hand | ETH Zurich | [Learning Robust Dexterous In-Hand Manipulation from Joint Sensors with Proprioceptive Transformer](https://arxiv.org/abs/2605.21330) | arXiv | [paper](https://arxiv.org/abs/2605.21330) |
 | 2026-01-15 | Force, Compliance, Contact-Rich | Stanford | [In-the-Wild Compliant Manipulation with UMI-FT](https://arxiv.org/abs/2601.09988) | ICRA 2026 | [github](https://github.com/real-stanford/UMI-FT) |
@@ -216,6 +218,7 @@ Hand-centric capabilities, organized by manipulation taxonomy rather than by onl
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
+| 2026-06-26 | Policy Composition, Finger-Level Ownership, Multi-Task | UNC Chapel Hill | [DexCompose: Reusing Dexterous Policies for Multi-Task Manipulation with a Single Hand](https://arxiv.org/abs/2606.28323) | arXiv | [project](https://devon018.github.io/DexCompose-Webpage/) |
 | 2026-05-07 | HOI Synthesis, Motion Refinement, Sim-to-Real | KIST / KAIST | [DexSynRefine: Synthesizing and Refining Human-Object Interaction Motion for Physically Feasible Dexterous Robot Actions](https://arxiv.org/abs/2605.05925) | arXiv | [paper](https://arxiv.org/abs/2605.05925) |
 | 2026-04-13 | Monocular RGB, 3DGS, Visual Sim2Real, Curriculum RL | ETH Zurich | [ViserDex: Visual Sim-to-Real for Robust Dexterous In-hand Reorientation](https://arxiv.org/abs/2604.11138) | arXiv | [project](https://rffr.leggedrobotics.com/works/viserdex/) |
 | 2026-03-11 | Contact Coverage, Count-Based Reward, General-Purpose Exploration | Shanghai AI Lab | [ContactExplorer: Contact Coverage-Guided Exploration for General-Purpose Dexterous Manipulation](https://arxiv.org/abs/2603.10971) | arXiv | [paper](https://arxiv.org/abs/2603.10971) |
@@ -340,6 +343,8 @@ Learning, planning, control, and data-pipeline methods for dexterous manipulatio
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
+| 2026-07-07 | Latent Motion Prior, Real-World Learning, DexHand | Authors | [LAMP: Latent Motion Prior-Guided Real-World Learning for Dexterous Hand Manipulation](https://arxiv.org/abs/2607.06323) | arXiv | [paper](https://arxiv.org/abs/2607.06323) |
+| 2026-07-05 | Segmentation Masks, Sim-to-Real, Dexterous World Models | ETH Zurich | [Mask2Real-WM: Segmentation Masks as a Sim-to-Real Bridge for Controllable Dexterous World Models](https://arxiv.org/abs/2607.04546) | arXiv | [project](https://srl-ethz.github.io/Mask2Real-WM/) |
 | 2026-04-13 | Monocular RGB, 3DGS, Visual Sim2Real | ETH Zurich | [ViserDex](https://arxiv.org/abs/2604.11138) | arXiv | [project](https://rffr.leggedrobotics.com/works/viserdex/) |
 | 2026-03-11 | Contact Coverage, Exploration, General-Purpose | Shanghai AI Lab | [ContactExplorer: Contact Coverage-Guided Exploration for General-Purpose Dexterous Manipulation](https://arxiv.org/abs/2603.10971) | arXiv | [paper](https://arxiv.org/abs/2603.10971) |
 | 2026-02-09 | Cross-Embodiment, Transformer, LEAP Hand | HKUST(GZ) | [DexFormer](https://arxiv.org/abs/2602.08278) | arXiv | [project](https://davidlxu.github.io/DexFormer-web/) |
@@ -582,6 +587,7 @@ Reusable simulators, benchmark suites, datasets, robot descriptions, and trainin
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
+| 2026-06-30 | Visual-Tactile-Action, Humanoid, 6k Trajectories | Authors | [RoboTacDex: A Dexterous Visual-Tactile-Action Dataset for Humanoid Manipulation](https://arxiv.org/abs/2606.31836) | arXiv | [paper](https://arxiv.org/abs/2606.31836) |
 | 2024-03-28 | Bimanual, Hand-Object, Complex Tasks | Shanghai Jiao Tong University | [OAKINK2: A Dataset of Bimanual Hands-Object Manipulation in Complex Task Completion](https://arxiv.org/abs/2403.19417) | CVPR 2024 | [project](https://oakink.net/v2/) / [github](https://github.com/oakink/OakInk2) |
 | 2022-04-28 | Bimanual, Articulated Objects, Contact | ETH Zurich | [ARCTIC: A Dataset for Dexterous Bimanual Hand-Object Manipulation](https://arxiv.org/abs/2204.13662) | CVPR 2023 | [project](https://arctic.is.tue.mpg.de/) |
 
@@ -589,6 +595,7 @@ Reusable simulators, benchmark suites, datasets, robot descriptions, and trainin
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
+| 2026-06-30 | Humanoid DexHands, Chemistry Lab, Precision Benchmark | Authors | [Labimus: A Simulation and Benchmark for Humanoid Dexterous Manipulation in Chemical Laboratory](https://arxiv.org/abs/2606.31037) | arXiv | [project](https://labimus.github.io/) |
 | 2025-04-25 | Unified Platform, Simulation, Benchmark, 20+ Institutions | Cornell / 20+ institutions | [RoboVerse: Towards a Unified Platform, Dataset and Benchmark for Scalable and Generalizable Robot Learning](https://arxiv.org/abs/2504.18904) | RSS 2025 | [project](https://roboverseorg.github.io/) / [github](https://github.com/RoboVerseOrg) |
 | 2025-02-11 | In-Grasp Manipulation, Benchmark, Dexterous Fingers | Tsinghua | [Robotic In-Hand Manipulation for Large-Range Precise Object Movement: The RGMC Champion Solution](https://arxiv.org/abs/2502.07472) | RA-L | [project](https://rgmc-xl-team.github.io/ingrasp_manipulation) |
 | 2024-03-19 | In-the-Wild, Large-Scale, Robot Data, 76k Trajectories, 350 Hours | Stanford / 10 institutions | [DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset](https://arxiv.org/abs/2403.12945) | arXiv | [project](https://droid-dataset.github.io/) |
@@ -629,6 +636,7 @@ Adjacent tasks that often determine whether a dexterous manipulation system can 
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
+| 2026-07-08 | Sampling-Based, Kinematic Retargeting, Real-Time | ETH Zurich | [Smooth Operator: A Real-Time Sampling-Based Algorithm for Kinematic Hand Retargeting](https://arxiv.org/abs/2607.07491) | arXiv | [paper](https://arxiv.org/abs/2607.07491) |
 | 2026-02-18 | Canonical Hand, Cross-Embodiment, LEAP Hand | UNC Chapel Hill | [One Hand to Rule Them All: Canonical Representations for Unified Dexterous Manipulation](https://arxiv.org/abs/2602.16712) | arXiv | [project](https://zhenyuwei2003.github.io/OHRA/) |
 | 2025-11-14 | Physics-Informed, Retargeting, Scalable | Columbia University | [SPIDER: Scalable Physics-Informed Dexterous Retargeting](https://arxiv.org/abs/2511.09484) | arXiv | [paper](https://arxiv.org/abs/2511.09484) |
 | 2025-05-30 | Functional Retargeting, Bimanual, Sim2Real | NVIDIA | [DexMachina: Functional Retargeting for Bimanual Dexterous Manipulation](https://arxiv.org/abs/2505.24853) | arXiv | [project](https://project-dexmachina.github.io/) |
