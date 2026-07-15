@@ -165,8 +165,10 @@ Physical systems and sensing layers for dexterous manipulation.
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
+| 2026-07-10 | Whole-Hand Tactile, Human-to-Robot Transfer, Benchmark | Authors | [TactiDex: A Real-World Tactile-Guided Benchmark for Human-Like Dexterous Manipulation](https://arxiv.org/abs/2607.09190) | arXiv | [project](https://tactidex.github.io/) |
 | 2026-07-08 | Tactile Foundation Model, Predictive+Reactive, DexHand | Harbin Institute of Technology | [TouchWorld: A Predictive and Reactive Tactile Foundation Model for Dexterous Manipulation](https://arxiv.org/abs/2607.07287) | arXiv | [paper](https://arxiv.org/abs/2607.07287) |
 | 2026-06-25 | Vibro-Tactile, Contact/Slip, Reactive Dexterity | CMU | [VibeAct: Vibration to Actions for Contact-Rich Reactive Robot Dexterity](https://arxiv.org/abs/2606.27344) | arXiv | [project](https://vibeact.github.io/) |
+| 2026-06-15 | Tactile-Reactive VLA, Variable-Rate MoT, 100-Hour Dataset | Authors | [T-Rex: Tactile-Reactive Dexterous Manipulation](https://arxiv.org/abs/2606.17055) | arXiv | [project](https://tactile-rex.github.io/) |
 | 2026-04-26 | Diffusion Policy, Visual-Tactile, Contact-Rich, Reactive, Tube | CMU / Stevens | [Tube Diffusion Policy: Reactive Visual-Tactile Policy Learning for Contact-rich Manipulation](https://arxiv.org/abs/2604.23609) | arXiv | [paper](https://arxiv.org/abs/2604.23609) |
 | 2026-02-10 | Normalizing Flow, Action-Chunked Critics, Real-World Fine-Tuning | ETH Zurich | [SERNF: Sample-Efficient Real-World Dexterous Policy Fine-Tuning via Action-Chunked Critics and Normalizing Flows](https://arxiv.org/abs/2602.09580) | arXiv | [paper](https://arxiv.org/abs/2602.09580) |
 | 2026-02-01 | Unified Force, Zero-Shot Transfer, Multi-Sensor | University of Liverpool | [UniForce: A Unified Latent Force Model for Robot Manipulation with Diverse Tactile Sensors](https://arxiv.org/abs/2602.01153) | arXiv | [paper](https://arxiv.org/abs/2602.01153) |
@@ -440,6 +442,7 @@ Learning, planning, control, and data-pipeline methods for dexterous manipulatio
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
+| 2026-07-08 | LingBot-VLA 2.0, Cross-Embodiment, DexHands | Robbyant | [From Foundation to Application: Improving VLA Models in Practice](https://github.com/Robbyant/lingbot-vla-v2/blob/main/assets/LingBot_VLA_2_0.pdf) | Tech Report | [github](https://github.com/Robbyant/lingbot-vla-v2) / [model](https://huggingface.co/robbyant/lingbot-vla-v2-6b) |
 | 2026-06-30 | Tactile VLA, Contact Prediction, Tactile-Action Control | Harbin Institute of Technology | [UniTacVLA: Unified Tactile Understanding and Prediction in Vision Language Action Models](https://arxiv.org/abs/2606.31723) | arXiv | [paper](https://arxiv.org/abs/2606.31723) |
 | 2026-05-07 | World Action Model, Object-Addressable, Slot-Based Attention | Southeast University | [OA-WAM: Object-Addressable World Action Model for Robust Robot Manipulation](https://arxiv.org/abs/2605.06481) | arXiv | [paper](https://arxiv.org/abs/2605.06481) |
 | 2026-05-07 | Triadic Relational Structure, VLA, Object-Hand-Task | NUS | [TriRelVLA: Triadic Relational Structure for Generalizable Embodied Manipulation](https://arxiv.org/abs/2605.05714) | arXiv | [paper](https://arxiv.org/abs/2605.05714) |
@@ -459,6 +462,7 @@ Learning, planning, control, and data-pipeline methods for dexterous manipulatio
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
+| 2026-07-03 | Unified Hand Action Space, Zero-Shot Cross-Hand Transfer | Authors | [Cross-Embodiment Robot Manipulation via a Unified Hand Action Space](https://arxiv.org/abs/2607.03570) | arXiv | [paper](https://arxiv.org/abs/2607.03570) |
 | 2026-03-12 | Humanoid, Demonstrations, Reproducible | Physical Intelligence Lab | [HumDex: Humanoid Dexterous Manipulation Made Easy](https://arxiv.org/abs/2603.12260) | arXiv | [github](https://github.com/physical-superintelligence-lab/HumDex) |
 | 2026-02-18 | Canonical Hand, Cross-Embodiment, LEAP Hand | UNC Chapel Hill | [One Hand to Rule Them All: Canonical Representations for Unified Dexterous Manipulation](https://arxiv.org/abs/2602.16712) | arXiv | [project](https://zhenyuwei2003.github.io/OHRA/) |
 | 2026-01 | Impedance Control, Vision-Language, VLM, Contact-Rich, Humanoid | Skoltech | [HumanoidVLM: Vision-Language-Guided Impedance Control for Contact-Rich Humanoid Manipulation](https://arxiv.org/abs/2601.14874) | HRI 2026 | [paper](https://arxiv.org/abs/2601.14874) |
@@ -502,6 +506,7 @@ Learning, planning, control, and data-pipeline methods for dexterous manipulatio
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
+| 2026-06-04 | Wearable DexHand, In-Hand Vision, Fingertip Tactile | Peking University | [RealDexUMI: A Wearable Universal Manipulation Interface for Dexterous Robot Learning](https://arxiv.org/abs/2606.06033) | arXiv | [project](https://research.beingbeyond.com/realdexumi) |
 | 2026-03-18 | Visuo-Tactile-Kinematic Data Collection, Large-Scale Demonstration | Zhejiang University | [DexViTac: Collecting Human Visuo-Tactile-Kinematic Demonstrations for Contact-Rich Dexterous Manipulation](https://arxiv.org/abs/2603.17851) | arXiv | [paper](https://arxiv.org/abs/2603.17851) |
 | 2026-03-06 | Cable-Driven, Force Feedback, 20-DoF, Low-Cost | Zhejiang University | [CDF-Glove: A Cable-Driven Force Feedback Glove for Dexterous Teleoperation](https://arxiv.org/abs/2603.05804) | arXiv | [project](https://cdfglove.github.io/) |
 | 2025-10-16 | Hardware-Agnostic, Hand Pose Retargeting, Any Hand/Arm | Zhejiang University | [Open TeleDex: A Hardware-Agnostic Teleoperation System for Imitation Learning based Dexterous Manipulation](https://arxiv.org/abs/2510.14771) | arXiv | [paper](https://arxiv.org/abs/2510.14771) |
@@ -595,6 +600,7 @@ Reusable simulators, benchmark suites, datasets, robot descriptions, and trainin
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
+| 2026-07-10 | Tactile-Guided Transfer, Single+Bimanual, Benchmark | Authors | [TactiDex: A Real-World Tactile-Guided Benchmark for Human-Like Dexterous Manipulation](https://arxiv.org/abs/2607.09190) | arXiv | [project](https://tactidex.github.io/) |
 | 2026-06-30 | Humanoid DexHands, Chemistry Lab, Precision Benchmark | Authors | [Labimus: A Simulation and Benchmark for Humanoid Dexterous Manipulation in Chemical Laboratory](https://arxiv.org/abs/2606.31037) | arXiv | [project](https://labimus.github.io/) |
 | 2025-04-25 | Unified Platform, Simulation, Benchmark, 20+ Institutions | Cornell / 20+ institutions | [RoboVerse: Towards a Unified Platform, Dataset and Benchmark for Scalable and Generalizable Robot Learning](https://arxiv.org/abs/2504.18904) | RSS 2025 | [project](https://roboverseorg.github.io/) / [github](https://github.com/RoboVerseOrg) |
 | 2025-02-11 | In-Grasp Manipulation, Benchmark, Dexterous Fingers | Tsinghua | [Robotic In-Hand Manipulation for Large-Range Precise Object Movement: The RGMC Champion Solution](https://arxiv.org/abs/2502.07472) | RA-L | [project](https://rgmc-xl-team.github.io/ingrasp_manipulation) |
