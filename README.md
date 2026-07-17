@@ -96,6 +96,7 @@ Physical systems and sensing layers for dexterous manipulation.
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
+| 2026-07-16 | Direct-Drive, Dense Tactile, Open-Source | UCLA | [MIDAS Hand: Modular low-Impedance Directly-driven Anthropomorphic Sensing Hand](https://arxiv.org/abs/2607.14487) | arXiv | [project](https://midas-hand.com) |
 | 2026-03-26 | Tendon-Driven, Open Source, Wrist+Abduction | Cornell University | [Ruka-v2: Tendon Driven Open-Source Dexterous Hand with Wrist and Abduction for Robot Learning](https://arxiv.org/abs/2603.26660) | arXiv | [project](https://ruka-hand-v2.github.io/) |
 | 2026-03-06 | Cable-Driven, Force Feedback, Teleoperation | Zhejiang University | [CDF-Glove: A Cable-Driven Force Feedback Glove for Dexterous Teleoperation](https://arxiv.org/abs/2603.05804) | arXiv | [project](https://cdfglove.github.io/) |
 | 2026-02-05 | Fingernails, Hybrid Fingertip, Precise Manipulation | UT Austin | [PLATO Hand: Shaping Contact Behavior with Fingernails for Precise Manipulation](https://arxiv.org/abs/2602.05156) | RA-L 2026 | [project](https://platohand.github.io/) |
@@ -345,6 +346,7 @@ Learning, planning, control, and data-pipeline methods for dexterous manipulatio
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
+| 2026-07-13 | Retargeting-Guided RL, Single Demo, Tool Use | Cornell University | [A Minimalist Retargeting-Guided Reinforcement Learning Recipe for Dexterous Manipulation](https://arxiv.org/abs/2607.11874) | arXiv | [project](https://yunhaifeng.com/REGRIND) |
 | 2026-07-07 | Latent Motion Prior, Real-World Learning, DexHand | Authors | [LAMP: Latent Motion Prior-Guided Real-World Learning for Dexterous Hand Manipulation](https://arxiv.org/abs/2607.06323) | arXiv | [paper](https://arxiv.org/abs/2607.06323) |
 | 2026-07-05 | Segmentation Masks, Sim-to-Real, Dexterous World Models | ETH Zurich | [Mask2Real-WM: Segmentation Masks as a Sim-to-Real Bridge for Controllable Dexterous World Models](https://arxiv.org/abs/2607.04546) | arXiv | [project](https://srl-ethz.github.io/Mask2Real-WM/) |
 | 2026-04-13 | Monocular RGB, 3DGS, Visual Sim2Real | ETH Zurich | [ViserDex](https://arxiv.org/abs/2604.11138) | arXiv | [project](https://rffr.leggedrobotics.com/works/viserdex/) |
@@ -506,6 +508,7 @@ Learning, planning, control, and data-pipeline methods for dexterous manipulatio
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
+| 2026-07-13 | Hand-Object Co-Tracking, Contact Transitions, Sim-to-Real | Tsinghua University | [Towards Human-level Dexterous Teleoperation](https://arxiv.org/abs/2607.11481) | arXiv | [project](https://bigai-dex.github.io/blog/teledexter) |
 | 2026-06-04 | Wearable DexHand, In-Hand Vision, Fingertip Tactile | Peking University | [RealDexUMI: A Wearable Universal Manipulation Interface for Dexterous Robot Learning](https://arxiv.org/abs/2606.06033) | arXiv | [project](https://research.beingbeyond.com/realdexumi) |
 | 2026-03-18 | Visuo-Tactile-Kinematic Data Collection, Large-Scale Demonstration | Zhejiang University | [DexViTac: Collecting Human Visuo-Tactile-Kinematic Demonstrations for Contact-Rich Dexterous Manipulation](https://arxiv.org/abs/2603.17851) | arXiv | [paper](https://arxiv.org/abs/2603.17851) |
 | 2026-03-06 | Cable-Driven, Force Feedback, 20-DoF, Low-Cost | Zhejiang University | [CDF-Glove: A Cable-Driven Force Feedback Glove for Dexterous Teleoperation](https://arxiv.org/abs/2603.05804) | arXiv | [project](https://cdfglove.github.io/) |
@@ -600,6 +603,7 @@ Reusable simulators, benchmark suites, datasets, robot descriptions, and trainin
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
+| 2026-07-15 | Industrial Assembly, Multimodal Imitation, Hardware+Software Benchmark | Analog Devices | [Industrial Dexterity Benchmark: A Hardware-Software Benchmarking Platform for Industrial Dexterous Manipulation](https://arxiv.org/abs/2607.14021) | arXiv | [paper](https://arxiv.org/abs/2607.14021) |
 | 2026-07-10 | Tactile-Guided Transfer, Single+Bimanual, Benchmark | Authors | [TactiDex: A Real-World Tactile-Guided Benchmark for Human-Like Dexterous Manipulation](https://arxiv.org/abs/2607.09190) | arXiv | [project](https://tactidex.github.io/) |
 | 2026-06-30 | Humanoid DexHands, Chemistry Lab, Precision Benchmark | Authors | [Labimus: A Simulation and Benchmark for Humanoid Dexterous Manipulation in Chemical Laboratory](https://arxiv.org/abs/2606.31037) | arXiv | [project](https://labimus.github.io/) |
 | 2025-04-25 | Unified Platform, Simulation, Benchmark, 20+ Institutions | Cornell / 20+ institutions | [RoboVerse: Towards a Unified Platform, Dataset and Benchmark for Scalable and Generalizable Robot Learning](https://arxiv.org/abs/2504.18904) | RSS 2025 | [project](https://roboverseorg.github.io/) / [github](https://github.com/RoboVerseOrg) |
@@ -661,6 +665,7 @@ Adjacent tasks that often determine whether a dexterous manipulation system can 
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
+| 2026-07-16 | Visuo-Haptic Fusion, Occluded Object, 6D Tracking | KIST | [KineFuse: Kinematic-Aware Haptic Fusion for In-Hand Occluded-Object Pose Tracking](https://arxiv.org/abs/2607.14842) | arXiv | [project](https://cold-young.github.io/kine-fuse/) |
 | 2026-04-12 | Point Tracking, RGB-D, 6D Tracking | MIT | [Point2Pose: Occlusion-Recovering 6D Pose Tracking and 3D Reconstruction for Multiple Unknown Objects Via 2D Point Trackers](https://arxiv.org/abs/2604.10415) | arXiv | [paper](https://arxiv.org/abs/2604.10415) |
 | 2026-01-04 | RGB-D+Tactile, In-Hand Pose, Dense Fusion | Honda Research Institute | [VisuoTactile 6D Pose Estimation of an In-Hand Object using Vision and Tactile Sensor Data](https://arxiv.org/abs/2601.01675) | arXiv | [paper](https://arxiv.org/abs/2601.01675) |
 | 2025-12-23 | Multi-View RGB, Feature-Metric, 6D Pose | Czech Technical University | [AlignPose: Generalizable 6D Pose Estimation via Multi-view Feature-metric Alignment](https://arxiv.org/abs/2512.20538) | arXiv | [paper](https://arxiv.org/abs/2512.20538) |
