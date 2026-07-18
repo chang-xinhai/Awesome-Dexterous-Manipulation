@@ -132,7 +132,7 @@ Each subsection should use the same compact table schema:
 
 ### Column rules
 
-- `Date`: use `YYYY-MM-DD` whenever possible; use `YYYY-MM` or `YYYY` only when a canonical precise date is not public.
+- `Date`: if a work has an arXiv record, always use the initial `v1` submission date shown by arXiv, not a revision date, acceptance date, conference date, project-page launch, code release, or local-time conversion. If no arXiv record exists, use the official conference or journal publication date. Use `YYYY-MM` or `YYYY` only when that canonical source does not publish a precise day.
 - `Keywords`: short tags only; keep them scannable.
 - `Institute (first)`: first institution / lab / company only, concise and normalized.
 - `Paper / Resource`: title linked to the canonical paper or resource URL.
