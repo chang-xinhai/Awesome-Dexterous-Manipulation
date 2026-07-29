@@ -136,6 +136,7 @@ Physical systems and sensing layers for dexterous manipulation.
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
+| 2026-07-25 | Tactile Glove, Pose Compensation, Force Estimation | Authors | [Pose-Aware Modeling to Mitigate Pose-Related Artifacts in Tactile Gloves](https://arxiv.org/abs/2607.22964) | arXiv | [paper](https://arxiv.org/abs/2607.22964) |
 | 2026-07-21 | Miniaturized, Vision+Photoelastic Touch, Palpation, Open-Source | Purdue University | [MVP-Tac: A Miniaturized Dual-Modal Vision and Photoelastic Tactile Sensor for Robot-Assisted Minimally Invasive Surgery](https://arxiv.org/abs/2607.18660) | IROS 2026 | [project](https://mvp-tac.github.io/) / [github](https://github.com/prince-css/mvp-tac) |
 | 2026-07-17 | Optical Fiber, Artificial Nerves, Biomimetic, Distributed Touch | University of Bristol | [Towards Artificial Nerves: Biomimetic Optical-Fiber Tactile Sensing for Robots](https://arxiv.org/abs/2607.15746) | arXiv | [paper](https://arxiv.org/abs/2607.15746) |
 | 2026-04-22 | Vision-Tactile Fusion, Continuous Sensing, GelSight Limitation | NUS | [FingerEye: Continuous and Unified Vision-Tactile Sensing for Dexterous Manipulation](https://arxiv.org/abs/2604.20689) | arXiv | [paper](https://arxiv.org/abs/2604.20689) |
@@ -170,6 +171,7 @@ Physical systems and sensing layers for dexterous manipulation.
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
+| 2026-07-27 | Visuo-Tactile World Model, Contact Prediction, Planning | Institute of Automation, CAS | [FeelWorld: Visuo-Tactile World Model for Hierarchical Contact Prediction and Planning](https://arxiv.org/abs/2607.24267) | arXiv | [paper](https://arxiv.org/abs/2607.24267) |
 | 2026-07-22 | Tactile Generation, RGB-to-Touch, Data Augmentation, Imitation Learning | USC | [FELT: Generating Tactile Signals from Vision for Visuo-Tactile Manipulation](https://arxiv.org/abs/2607.20683) | arXiv | [project](https://felt-tactile.github.io/) |
 | 2026-07-16 | Tactile-Grounded VLA, Future Touch Prediction, Latent Alignment | Fudan University | [Representation-Aligned Tactile Grounding for Contact-Rich Robotic Manipulation](https://arxiv.org/abs/2607.14609) | arXiv | [paper](https://arxiv.org/abs/2607.14609) |
 | 2026-07-10 | Whole-Hand Tactile, Human-to-Robot Transfer, Benchmark | Authors | [TactiDex: A Real-World Tactile-Guided Benchmark for Human-Like Dexterous Manipulation](https://arxiv.org/abs/2607.09190) | arXiv | [project](https://tactidex.github.io/) |
@@ -419,6 +421,7 @@ Learning, planning, control, and data-pipeline methods for dexterous manipulatio
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
+| 2026-07-28 | Long-Horizon Dexterity, TAMP, Skill Reorganization | Authors | [Decompose and Reorganize: Planning with Primitives and Visuomotor Policies Learned from Demonstrations](https://arxiv.org/abs/2607.25397) | arXiv | [project](https://dr-lfd.github.io/DR-LfD-website/) |
 | 2026-04-21 | Admittance Control, Compliant Manipulation, Unknown Payload | Virginia Tech | [Wrench-Aware Admittance Control for Unknown-Payload Manipulation](https://arxiv.org/abs/2604.19469) | arXiv | [paper](https://arxiv.org/abs/2604.19469) |
 | 2026-03-04 | Force-Aware, Residual DAgger, Impedance Control, Precision Insertion | Tsinghua | [Force-Aware Residual DAgger via Trajectory Editing for Precision Insertion with Impedance Control](https://arxiv.org/abs/2603.04038) | arXiv | [paper](https://arxiv.org/abs/2603.04038) |
 | 2026-02-10 | Bimanual, Monocular Video, Policy Learning, 4D Reconstruction | Shanghai AI Lab | [DexImit: Learning Bimanual Dexterous Manipulation from Monocular Human Videos](https://arxiv.org/abs/2602.10105) | arXiv | [paper](https://arxiv.org/abs/2602.10105) |
@@ -459,6 +462,7 @@ Learning, planning, control, and data-pipeline methods for dexterous manipulatio
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
+| 2026-07-26 | Tactile-Native World Action Model, Contact-Rich, Multi-Embodiment | Authors | [$N_0$-TWAM: Scaling Tactile-Native World-Action Model for Contact-Rich Manipulation](https://arxiv.org/abs/2607.23783) | arXiv | [paper](https://arxiv.org/abs/2607.23783) |
 | 2026-07-20 | Force Memory, Non-Markovian VLA, Contact-Rich | Tsinghua University | [FM-VLA: Force-based Memory for Vision-Language-Action Models in Contact-Rich Manipulation](https://arxiv.org/abs/2607.18231) | arXiv | [project](https://qft-333.github.io/FM-VLA-Page/) / [github](https://github.com/qft-333/FM-VLA) |
 | 2026-07-16 | Tactile-Grounded VLA, Future Touch Prediction, Latent Alignment | Fudan University | [Representation-Aligned Tactile Grounding for Contact-Rich Robotic Manipulation](https://arxiv.org/abs/2607.14609) | arXiv | [paper](https://arxiv.org/abs/2607.14609) |
 | 2026-07-07 | LingBot-VLA 2.0, Cross-Embodiment, DexHands | Robbyant | [From Foundation to Application: Improving VLA Models in Practice](https://github.com/Robbyant/lingbot-vla-v2/blob/main/assets/LingBot_VLA_2_0.pdf) | Tech Report | [github](https://github.com/Robbyant/lingbot-vla-v2) / [model](https://huggingface.co/robbyant/lingbot-vla-v2-6b) / [paper](https://arxiv.org/abs/2607.06403) |
