@@ -174,6 +174,7 @@ Physical systems and sensing layers for dexterous manipulation.
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
+| 2026-08-03 | Tactile VLA, Online Prediction, XHand, 900 Demonstrations | Authors | [ReTouch: Empowering Contact-Rich Dexterous Manipulation with Online-Refined Tactile Prediction](https://arxiv.org/abs/2608.01824) | arXiv | [paper](https://arxiv.org/abs/2608.01824) |
 | 2026-07-30 | Tactile World Action Model, Force/Deformation Futures, In-Hand Manipulation | Tsinghua University | [TacWAM: Anchor-Guided World Action Model with Mechanics-Aware Tactile Prediction](https://arxiv.org/abs/2607.28391) | arXiv | [paper](https://arxiv.org/abs/2607.28391) |
 | 2026-07-27 | Visuo-Tactile World Model, Contact Prediction, Planning | Institute of Automation, CAS | [FeelWorld: Visuo-Tactile World Model for Hierarchical Contact Prediction and Planning](https://arxiv.org/abs/2607.24267) | arXiv | [paper](https://arxiv.org/abs/2607.24267) |
 | 2026-07-24 | Action-Conditioned World Model, Visuo-Tactile Rollouts, Policy Evaluation | ShanghaiTech University | [ViTacWorld: Scaling Visuo-Tactile World Models for Contact-Rich Robot Manipulation](https://arxiv.org/abs/2607.22530) | arXiv | [project](https://vitacworld.github.io/) |
@@ -546,6 +547,7 @@ Learning, planning, control, and data-pipeline methods for dexterous manipulatio
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
+| 2026-08-13 | Copilot Teleoperation, Nested Policies, Hand-Arm, Demonstration Collection | University of Sydney | [NestDex: Nested Policy Learning with Copilot Assisted Teleoperation for Dexterous Manipulation](https://arxiv.org/abs/2608.13362) | arXiv | [project](https://aus.bot/research/nestdex) |
 | 2026-07-30 | Kinesthetic Arm Guidance, Webcam Retargeting, Low-Setup, Demonstration Collection | UCLA | [DexDirect: Direct Kinesthetic Arm Guidance for Efficient Dexterous Demonstration Collection](https://arxiv.org/abs/2607.27784) | arXiv | [paper](https://arxiv.org/abs/2607.27784) |
 | 2026-07-28 | Robot-Free, Bimanual UMI, 3 mm Pose, Six-View, 2k Hours | Simple AI | [HiFi-UMI: Learning Deployable Manipulation Policies from High-Fidelity UMI Data Alone](https://arxiv.org/abs/2607.25895) | arXiv | [project](https://cloud.simpleai.tech/simple-world-lab/hifi-umi/) / [dataset](https://huggingface.co/datasets/simple-world-lab/HiFi-UMI-2K) |
 | 2026-07-13 | Hand-Object Co-Tracking, Contact Transitions, Sim-to-Real | Tsinghua University | [Towards Human-level Dexterous Teleoperation](https://arxiv.org/abs/2607.11481) | arXiv | [project](https://bigai-dex.github.io/blog/teledexter) |
@@ -579,6 +581,7 @@ Learning, planning, control, and data-pipeline methods for dexterous manipulatio
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
+| 2026-08-07 | Monocular Video, Contact-Consistent, Retargeting, Sim-to-Real | Nanjing University | [C2Dex: Contact-Consistent Reconstruction and Retargeting for Dexterous Manipulation from Monocular Video](https://arxiv.org/abs/2608.07045) | arXiv | [project](https://k-jie.github.io/C2Dex/) |
 | 2026-07-30 | Ambient Capture, Hand-Object Interaction, Full-Body, Tactile, 150 Hours | Nanyang Technological University | [ACE-Data-0: Human-Centric Ambient Capture as Embodied Data Engine](https://arxiv.org/abs/2607.28625) | arXiv | [project](https://ace-data-engine.github.io/ACE-Data-0/) |
 | 2026-06-17 | Human Video, 4D Reconstruction, Retargeting, DexHand Data | UC Berkeley | [Do as I Do: Dexterous Manipulation Data from Everyday Human Videos](https://arxiv.org/abs/2606.19333) | arXiv | [project](https://do-as-i-do.com/) / [github](https://github.com/malik-group/do-as-i-do) |
 | 2026-06-10 | Internet Video, Intent Model, Embodiment-Agnostic, Sim-to-Real | UIUC | [LUCID: Learning Embodiment-Agnostic Intent Models from Unstructured Human Videos for Scalable Dexterous Robot Skill Acquisition](https://arxiv.org/abs/2606.11628) | arXiv | [project](https://lucid-robot.github.io/) |
