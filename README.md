@@ -785,6 +785,7 @@ Adjacent tasks that often determine whether a dexterous manipulation system can 
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
+| 2026-08-15 | Tactile Sensing, Research Index, Evidence Taxonomy | RoboSkin.ai | [RoboSkin Tactile Research Index](https://roboskin.ai/research-index) | Website | [CSV](https://roboskin.ai/research-index.csv) / [JSON](https://roboskin.ai/research-index.json) |
 | 2025-04-04 | Imitation Learning, Teleoperation, Survey | Tianjin University | [Dexterous Manipulation through Imitation Learning: A Survey](https://arxiv.org/abs/2504.03515) | arXiv | [html](https://arxiv.org/html/2504.03515v5) |
 | 2021-05-18 | Tactile Sensing, Review, Robots | University of Bristol | [A Review of Tactile Sensors for Robotic Applications](https://www.mdpi.com/1424-8220/21/11/3938) | Sensors 2021 | [paper](https://www.mdpi.com/1424-8220/21/11/3938) |
 | 2018-12-01 | Dexterous Manipulation, Hand-Centric Taxonomy | Stanford | [A Hand-Centric Classification of Human and Robot Dexterous Manipulation](https://doi.org/10.1109/TOH.2018.2866787) | IEEE ToH 2018 | [paper](https://doi.org/10.1109/TOH.2018.2866787) |
