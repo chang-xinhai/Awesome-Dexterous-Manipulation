@@ -181,6 +181,7 @@ Only update `News` for major changes or milestone-level progress, such as:
 - major restructuring that changes how readers navigate the list
 
 Adding a few papers, fixing metadata, or refreshing links should not create a `News` item.
+A deep audit or bulk paper refresh is still routine content maintenance and does not qualify by itself.
 
 When adding entries:
 1. decide the primary section first
