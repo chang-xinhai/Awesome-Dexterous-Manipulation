@@ -87,13 +87,15 @@ The repository uses **core + strong adjacent** scope.
 - methods demonstrated on dexterous hands, in-hand manipulation, bimanual dexterity, visuo-tactile manipulation, or contact-rich fine manipulation
 
 ### Include selectively
-- general robot-learning policies when they are commonly used as dexterous manipulation baselines or infrastructure
-- broad manipulation benchmarks when they include important dexterous-hand, tactile, deformable, or fine manipulation components
+- general robot-learning policies only when a dexterous-hand or tactile evaluation is a substantial, reusable part of the work
+- broad manipulation benchmarks only when they provide a substantial dexterous-hand, tactile, or hand-centric evaluation track rather than one incidental task
 - humanoid manipulation work when dexterous-hand manipulation is a central contribution
 
 ### Usually exclude
 - generic pick-and-place manipulation with weak dexterity relevance
 - broad robot planning/control work that does not materially help dexterous manipulation
+- generic mobile/deformable-object benchmarks without a hand-centric dexterity or tactile contribution
+- generic pose estimation, point tracking, SLAM, SfM, or camera-calibration utilities unless they are designed for in-hand/contact state or are integral to a widely used dexterous system
 - unrelated industrial gripper resources without a clear dexterous or multi-finger angle
 - unverified papers, rumor-like projects, or entries without a reliable public source
 
@@ -147,7 +149,7 @@ Each subsection should use the same compact table schema:
 
 ## Overlap policy
 
-Controlled duplication is allowed.
+Prefer one primary full-table placement per work. Controlled duplication is allowed only when the same work has two materially distinct roles for readers.
 
 Examples:
 - a tactile dexterous-hand paper may appear in both `Hardware & Sensor Systems` and `Methodology`
@@ -158,6 +160,7 @@ When duplicating an entry:
 - keep the metadata consistent across placements
 - adjust `Keywords` only if needed to explain the local role
 - do not create unnecessary variant titles
+- never repeat a work in two subsections under the same `###` section; use the single best-fitting subsection
 
 ## Dataset metadata guidance
 
