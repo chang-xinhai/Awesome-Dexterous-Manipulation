@@ -72,7 +72,9 @@ Start here if you want the shortest path through the field.
     - [Data Collection Paradigms](#35-data-collection-paradigms)
   - [Infrastructure](#-4-infrastructure)
     - [Simulators](#41-simulators)
+      - [Tactile Simulation](#tactile-simulation)
     - [Benchmarks & Datasets](#42-benchmarks--datasets)
+      - [Tactile & Contact-Rich Datasets](#tactile--contact-rich-datasets)
     - [Enabling Methods & System Utilities](#43-enabling-methods--system-utilities)
       - [Grasp & Initialization](#431-grasp--initialization)
       - [Retargeting](#432-retargeting)
@@ -504,6 +506,7 @@ Learning, planning, control, and data-pipeline methods for dexterous manipulatio
 | 2026-07-30 | Frequency-Adaptive, Visual-Force, Reactive Diffusion, Contact-Rich | Shanghai Jiao Tong University | [FA-RDP: A Frequency-Adaptive Reactive Diffusion Policy for Contact-Rich Manipulation](https://arxiv.org/abs/2607.28596) | arXiv | [project](https://fa-rdp.github.io/) |
 | 2026-07-28 | Reactive, Flow Matching, Proprioception, XHand, Real-Time | Carnegie Mellon University | [$\pi\mathbf{R}^2$: Reactive Real-time Flow Policies](https://arxiv.org/abs/2607.26055) | arXiv | [project](https://pi-r2-flow.github.io/) |
 | 2026-07-19 | Asynchronous Fusion, Vision+Force, Reactive Diffusion Policy | Shanghai Jiao Tong | [Asynchronous Multimodal Diffusion Policy Composition via Latency-Aware Guidance Fusion](https://arxiv.org/abs/2607.17257) | arXiv | [project](https://lag-fusion.github.io/) |
+| 2026-02-05 | Bimanual DexHands, Diffusion Transformer, Tactile Adapter | XYZ Embodied AI | [DECO: Decoupled Multimodal Diffusion Transformer for Bimanual Dexterous Manipulation with a Plugin Tactile Adapter](https://arxiv.org/abs/2602.05513) | ICML 2026 | [project](https://baai-humanoid.github.io/DECO-webpage/) / [github](https://github.com/BAAI-Humanoid/DECO) / [dataset](https://huggingface.co/datasets/BAAI-Humanoid/DECO-50) |
 | 2025-08-24 | Long-Horizon, Synthetic Data, Skill Routing | HKU | [LodeStar: Long-horizon Dexterity via Synthetic Data Augmentation from Human Demonstrations](https://arxiv.org/abs/2508.17547) | arXiv | [paper](https://arxiv.org/abs/2508.17547) |
 | 2025-08-20 | Force Closure, Differentiable Optimization, Grasp Synthesis | ETH Zurich | [GraspQP: Differentiable Optimization of Force Closure for Diverse and Robust Dexterous Grasping](https://arxiv.org/abs/2508.15002) | IROS 2025 | [paper](https://arxiv.org/abs/2508.15002) |
 | 2025-06-17 | Sim-to-Real, Clutter, Diffusion Policy | Tsinghua | [ClutterDexGrasp: A Sim-to-Real System for General Dexterous Grasping in Cluttered Scenes](https://arxiv.org/abs/2506.14317) | CoRL 2025 | [project](https://clutterdexgrasp.github.io/) |
@@ -536,8 +539,10 @@ Learning, planning, control, and data-pipeline methods for dexterous manipulatio
 | 2026-07-03 | Tactile World Model, Failure Recovery, VLA Post-Training | Peking University | [TACO: TActile World Model as a Self-COrrector for Scalable VLA Post-Training](https://arxiv.org/abs/2607.02840) | arXiv | [project](https://taco-wm.github.io/) |
 | 2026-07-01 | Tactile Pretraining, Dexterous VLA, Human-to-Robot, Contact Dynamics | Peking University | [Human-Centric Transferable Tactile Pre-Training for Dexterous Robotic Manipulation](https://arxiv.org/abs/2607.01067) | arXiv | [paper](https://arxiv.org/abs/2607.01067) |
 | 2026-06-30 | Tactile VLA, Contact Prediction, Tactile-Action Control | Harbin Institute of Technology | [UniTacVLA: Unified Tactile Understanding and Prediction in Vision Language Action Models](https://arxiv.org/abs/2606.31723) | arXiv | [paper](https://arxiv.org/abs/2606.31723) |
+| 2026-06-21 | Egocentric Video, 9.6k Hours, World Model, DAgger | Peking University | [EgoSteer: A Full-Stack System Towards Steerable Dexterous Manipulation from Egocentric Videos](https://arxiv.org/abs/2607.09701) | arXiv | [project](https://egosteer.github.io/) |
 | 2026-06-17 | Zero-Shot Long-Horizon, Multi-View 3D Grounding, VLM Planning | Seoul National University | [ZeroDex: Zero-Shot Long-Horizon Dexterous Manipulation via Multi-View 3D-Grounded VLM Reasoning](https://arxiv.org/abs/2606.19340) | arXiv | [project](https://jlogkim.github.io/zerodex) |
 | 2026-06-10 | Dexterous VLA, Morphology Gap, Intent Conditioning, Fine-Tuning | Beihang University | [Bridging the Morphology Gap: Adapting VLA Models to Dexterous Manipulation via Intent-Conditioned Fine-Tuning](https://arxiv.org/abs/2606.12109) | arXiv | [paper](https://arxiv.org/abs/2606.12109) |
+| 2026-05-18 | Dual-Arm Dual-Hand, VLA, Real+Synthetic Data, Quality Weighting | Tsinghua University | [Dexora: Open-source VLA for High-DoF Bimanual Dexterity](https://arxiv.org/abs/2605.18722) | ICRA 2026 | [project](https://dexoravla.github.io/) / [github](https://github.com/dexoravla/Dexora) |
 | 2026-05-14 | Dexterous VLA, Human-in-the-Loop, Bimanual, Policy Refinement | Shanghai Jiao Tong | [Hand-in-the-Loop: Improving VLA Policies for Dexterous Manipulation via Seamless Hand-Arm Intervention](https://arxiv.org/abs/2605.15157) | arXiv | [project](https://simpson-li.github.io/Hand-in-the-Loop/) |
 | 2026-05-07 | World Action Model, Object-Addressable, Slot-Based Attention | Southeast University | [OA-WAM: Object-Addressable World Action Model for Robust Robot Manipulation](https://arxiv.org/abs/2605.06481) | arXiv | [paper](https://arxiv.org/abs/2605.06481) |
 | 2026-05-07 | Triadic Relational Structure, VLA, Object-Hand-Task | NUS | [TriRelVLA: Triadic Relational Structure for Generalizable Embodied Manipulation](https://arxiv.org/abs/2605.05714) | arXiv | [paper](https://arxiv.org/abs/2605.05714) |
@@ -680,12 +685,8 @@ Reusable simulators, benchmark suites, datasets, robot descriptions, and trainin
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
-| 2026-06-21 | GPU Tactile Simulation, Multi-Sensor, 20k Envs, XHand1 | Carnegie Mellon | [Tactile Genesis: Exploring Tactile Sensors at Scale for Learning Dexterous Tasks](https://arxiv.org/abs/2606.22332) | arXiv | [project](https://neuroagents-lab.github.io/tactile-genesis/) / [github](https://github.com/neuroagents-lab/2026-tactile-genesis) |
-| 2026-06-17 | Tactile Simulation, Shared Latent, Zero-Shot Sim-to-Real, Isaac Lab | ETH Zurich | [TactSpace: Learning a Physics-enriched Shared Latent Space for Tactile Sim-to-Real Transfer](https://arxiv.org/abs/2606.18959) | IROS 2026 | [project](https://leggedrobotics.github.io/tactspace-web/) |
 | 2026-05-23 | Real-Time Video Simulation, Causal Diffusion, Hand-Object Interaction | UC Berkeley | [DexSIM: Real-time Dexterous Simulation with Unified Causal Video Diffusion](https://arxiv.org/abs/2605.24630) | arXiv | [paper](https://arxiv.org/abs/2605.24630) |
-| 2026-04-22 | Tactile Simulation, Lightweight Rendering, Dexterous Policy Learning | ShanghaiTech University | [ETac: A Lightweight and Efficient Tactile Simulation Framework for Learning Dexterous Manipulation](https://arxiv.org/abs/2604.20295) | arXiv | [project](https://lassford.github.io/ETac/) |
 | 2025-11-03 | Generative Simulation, Cross-Hand Morphologies, Scalable Training | University of Hong Kong | [GenDexHand: Generative Simulation for Dexterous Hands](https://arxiv.org/abs/2511.01791) | arXiv | [paper](https://arxiv.org/abs/2511.01791) |
-| 2025-04-17 | Tactile Simulation, GPU, Vision-Based Touch | Peking University | [Taccel: Scaling Up Vision-based Tactile Robotics via High-performance GPU Simulation](https://arxiv.org/abs/2504.12908) | NeurIPS 2025 Spotlight | [project](https://taccel-simulator.github.io/) / [github](https://github.com/Genesis-Embodied-AI/Taccel) |
 | 2024-06-14 | Isaac Lab, GPU Sim, RL Environments | NVIDIA | [Isaac Lab](https://isaac-sim.github.io/IsaacLab/) | GitHub | [github](https://github.com/isaac-sim/IsaacLab) / [docs](https://isaac-sim.github.io/IsaacLab/) |
 | 2021-08-24 | GPU Physics, Massive RL, Dexterous Tasks | NVIDIA | [Isaac Gym: High Performance GPU-Based Physics Simulation for Robot Learning](https://arxiv.org/abs/2108.10470) | NeurIPS 2021 | [paper](https://arxiv.org/abs/2108.10470) |
 | 2021-08-01 | Isaac Sim, Omniverse, Robotics Simulation | NVIDIA | [Isaac Sim](https://developer.nvidia.com/isaac/sim) | Website | [docs](https://docs.isaacsim.omniverse.nvidia.com/) |
@@ -699,6 +700,26 @@ Reusable simulators, benchmark suites, datasets, robot descriptions, and trainin
 | 2016-10-27 | PyBullet, Robotics Simulation, Open Source | Erwin Coumans | [PyBullet](https://github.com/bulletphysics/bullet3) | GitHub | [docs](https://github.com/bulletphysics/bullet3/blob/master/docs/pybullet_quickstart_guide/PyBulletQuickstartGuide.md.html) / [pypi](https://pypi.org/project/pybullet/) |
 | 2012-12-11 | MuJoCo, Contact Dynamics, Model-Based Control | University of Washington | [MuJoCo: A Physics Engine for Model-Based Control](https://ieeexplore.ieee.org/document/6386109) | IROS 2012 | [website](https://mujoco.org/) / [github](https://github.com/google-deepmind/mujoco) |
 
+#### Tactile Simulation
+
+Sensor rendering, deformable contact models, and tactile learning environments complement the general-purpose physics engines above.
+
+| Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
+| :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
+| 2026-06-21 | GPU Tactile Simulation, Multi-Sensor, 20k Envs, XHand1 | Carnegie Mellon | [Tactile Genesis: Exploring Tactile Sensors at Scale for Learning Dexterous Tasks](https://arxiv.org/abs/2606.22332) | arXiv | [project](https://neuroagents-lab.github.io/tactile-genesis/) / [github](https://github.com/neuroagents-lab/2026-tactile-genesis) |
+| 2026-06-17 | Tactile Simulation, Shared Latent, Zero-Shot Sim-to-Real, Isaac Lab | ETH Zurich | [TactSpace: Learning a Physics-enriched Shared Latent Space for Tactile Sim-to-Real Transfer](https://arxiv.org/abs/2606.18959) | IROS 2026 | [project](https://leggedrobotics.github.io/tactspace-web/) |
+| 2026-04-22 | Tactile Simulation, Lightweight Rendering, Dexterous Policy Learning | ShanghaiTech University | [ETac: A Lightweight and Efficient Tactile Simulation Framework for Learning Dexterous Manipulation](https://arxiv.org/abs/2604.20295) | arXiv | [project](https://lassford.github.io/ETac/) |
+| 2026-03-30 | GPU, Marker Displacement, Online RL, Zero-Shot Sim-to-Real | Shanghai AI Lab | [Tac2Real: Reliable and GPU Visuotactile Simulation for Online Reinforcement Learning and Zero-Shot Real-World Deployment](https://arxiv.org/abs/2603.28475) | arXiv | [project](https://ningyurichard.github.io/tac2real-project-page/) / [github](https://github.com/InternRobotics/Tac2Real) |
+| 2026-02-10 | Visuotactile Simulation, Multi-Sensor, Data Generation, Benchmark | Shanghai Jiao Tong University | [UniVTAC: A Unified Simulation Platform for Visuo-Tactile Manipulation Data Generation, Learning, and Benchmarking](https://arxiv.org/abs/2602.10093) | arXiv | [project](https://univtac.github.io/) / [github](https://github.com/univtac/UniVTAC) |
+| 2025-04-17 | Tactile Simulation, GPU, Vision-Based Touch | Peking University | [Taccel: Scaling Up Vision-based Tactile Robotics via High-performance GPU Simulation](https://arxiv.org/abs/2504.12908) | NeurIPS 2025 Spotlight | [project](https://taccel-simulator.github.io/) / [github](https://github.com/Genesis-Embodied-AI/Taccel) |
+| 2024-11-07 | GelSight, Soft-Body Physics, Isaac Sim+Lab | TU Darmstadt | [TacEx: GelSight Tactile Simulation in Isaac Sim -- Combining Soft-Body and Visuotactile Simulators](https://arxiv.org/abs/2411.04776) | CoRL 2024 Workshop | [project](https://sites.google.com/view/tacex) / [github](https://github.com/DH-Ng/TacEx) |
+| 2024-08-12 | GPU, Visuotactile Images, Contact-Force Fields, Isaac Gym | NVIDIA | [TacSL: A Library for Visuotactile Sensor Simulation and Learning](https://arxiv.org/abs/2408.06506) | arXiv | [project](https://iakinola23.github.io/tacsl/) / [github](https://github.com/isaac-sim/IsaacGymEnvs/tree/tacsl) |
+| 2024-03-13 | Differentiable Physics, FEM, Contact-Rich, Multi-Material | Carnegie Mellon University | [DIFFTACTILE: A Physics-based Differentiable Tactile Simulator for Contact-rich Robotic Manipulation](https://arxiv.org/abs/2403.08716) | ICLR 2024 | [project](https://difftactile.github.io/) / [github](https://github.com/Genesis-Embodied-AI/DiffTactile) |
+| 2023-01-19 | Elastomer Deformation, MPM, Optical Touch | King's College London | [Tacchi: A Pluggable and Low Computational Cost Elastomer Deformation Simulator for Optical Tactile Sensors](https://arxiv.org/abs/2301.08343) | RA-L 2023 | [github](https://github.com/zixichen007115/Tacchi) |
+| 2022-07-21 | Tactile RL, DigiTac+DIGIT+TacTip, Sim-to-Real | University of Bristol | [Tactile Gym 2.0: Sim-to-real Deep Reinforcement Learning for Comparing Low-cost High-Resolution Robot Touch](https://arxiv.org/abs/2207.10763) | arXiv | [github](https://github.com/yijionglin/tactile_gym_2) |
+| 2021-09-09 | GelSight, Example-Based Optics, Marker Motion | Carnegie Mellon University | [Taxim: An Example-based Simulation Model for GelSight Tactile Sensors](https://arxiv.org/abs/2109.04027) | arXiv | [github](https://github.com/Robo-Touch/Taxim) |
+| 2020-12-15 | Optical Touch, DIGIT+OmniTact, PyBullet | MIT | [TACTO: A Fast, Flexible, and Open-source Simulator for High-Resolution Vision-based Tactile Sensors](https://arxiv.org/abs/2012.08456) | RA-L 2022 | [github](https://github.com/facebookresearch/tacto) |
+
 <a id="42-benchmarks--datasets"></a>
 
 ### 4.2 Benchmarks & Datasets
@@ -711,6 +732,7 @@ Reusable simulators, benchmark suites, datasets, robot descriptions, and trainin
 | 2026-06-22 | Autonomous Real-World Collection, 3,593 Trials, Success+Failure Labels | Seoul National University | [AutoDex: An Automated Real-World System for Dexterous Grasping Data Collection](https://arxiv.org/abs/2606.23689) | arXiv | [project](https://willi19.github.io/AutoDex/) |
 | 2026-04-16 | Paired Human+Robot Grasps, 100 Objects, 2.1K Sequences, Tactile | Seoul National University | [HRDexDB: A Paired Human-Robot Dataset for Cross-Embodiment Dexterous Grasping](https://arxiv.org/abs/2604.14944) | arXiv | [project](https://snuvclab.github.io/HRDexDB/) / [github](https://github.com/snuvclab/HRDexDB) / [dataset](https://huggingface.co/datasets/HRDexDB/HRDexDB) |
 | 2025-04-26 | Grasp Taxonomy, Type-Conditional, 10.7k Objects, 9.5M Grasps, 31 Grasp Types | Shanghai AI Lab / Peking | [Dexonomy: Synthesizing All Dexterous Grasp Types in a Grasp Taxonomy](https://arxiv.org/abs/2504.18829) | RSS 2025 | [paper](https://arxiv.org/abs/2504.18829) |
+| 2024-10-30 | Synthetic Clutter, 1,319 Objects, 8,270 Scenes, 427M Grasps | Peking University | [DexGraspNet 2.0: Learning Generative Dexterous Grasping in Large-scale Synthetic Cluttered Scenes](https://arxiv.org/abs/2410.23004) | CoRL 2024 | [github](https://github.com/PKU-EPIC/DexGraspNet2) / [dataset](https://huggingface.co/datasets/lhrlhr/DexGraspNet2.0) |
 | 2023-10-24 | Multi-Object, DexHand, Synthetic Dataset | Peking University | [Grasp Multiple Objects with One Hand](https://arxiv.org/abs/2310.15599) | RA-L 2024 | [project](https://multigrasp.github.io/) |
 | 2022-10-06 | Large-Scale, DexHand, Grasp Synthesis | Peking University | [DexGraspNet: A Large-Scale Robotic Dexterous Grasp Dataset for General Objects Based on Simulation](https://arxiv.org/abs/2210.02697) | ICRA 2023 | [project](https://pku-epic.github.io/DexGraspNet/) / [github](https://github.com/PKU-EPIC/DexGraspNet) |
 | 2022-10-03 | Hand-Agnostic, MultiDex, Grasp Synthesis | BIGAI | [GenDexGrasp: Generalizable Dexterous Grasping](https://arxiv.org/abs/2210.00722) | ICRA 2023 | [project](https://sites.google.com/view/gendexgrasp/home) / [github](https://github.com/tengyu-liu/GenDexGrasp) |
@@ -725,7 +747,6 @@ Reusable simulators, benchmark suites, datasets, robot descriptions, and trainin
 | 2026-08-23 | Bimanual Hand Forecasting, 651k Windows, 111 Tasks, Plan Supervision | Institute of Computing Technology, CAS | [EMPIRE: Explicit Manipulation Planning as a Learnable Intermediate Representation for Egocentric Hand-Motion Forecasting](https://arxiv.org/abs/2608.22449) | arXiv | [github](https://github.com/wangwen-banban/EMPIRE) |
 | 2026-07-30 | Human HOI, Articulated Hands, Tactile, 75k Episodes, 150 Hours | Nanyang Technological University | [ACE-Data-0: Human-Centric Ambient Capture as Embodied Data Engine](https://arxiv.org/abs/2607.28625) | arXiv | [project](https://ace-data-engine.github.io/ACE-Data-0/) |
 | 2026-07-28 | Robot-Free, Bimanual UMI, 2k Hours, Six-View, Replay-Validated | Simple AI | [HiFi-UMI: Learning Deployable Manipulation Policies from High-Fidelity UMI Data Alone](https://arxiv.org/abs/2607.25895) | arXiv | [project](https://cloud.simpleai.tech/simple-world-lab/hifi-umi/) / [dataset](https://huggingface.co/datasets/simple-world-lab/HiFi-UMI-2K) |
-| 2026-06-30 | Visual-Tactile-Action, Humanoid, 6k Trajectories | Authors | [RoboTacDex: A Dexterous Visual-Tactile-Action Dataset for Humanoid Manipulation](https://arxiv.org/abs/2606.31836) | arXiv | [paper](https://arxiv.org/abs/2606.31836) |
 | 2026-06-08 | Bimanual UMI, 8,434 Hours, 1.20M Episodes, 119 Tasks | AI Robot Association | [YUBI: Yielding Universal Bidigital Interface for Bimanual Dexterous Manipulation at Scale](https://arxiv.org/abs/2606.10244) | ICRA 2026 Workshop | [project](https://yubi.airoa.io/) / [hardware](https://github.com/Toyota/yubi-hw) / [software](https://github.com/airoa-org/yubi-sw) |
 | 2025-10-17 | Real+Synthetic Human HOI, 7k Hours, Contact+Force Annotations | University of Michigan | [DexCanvas: Bridging Human Demonstrations and Robot Learning for Dexterous Manipulation](https://arxiv.org/abs/2510.15786) | arXiv | [paper](https://arxiv.org/abs/2510.15786) |
 | 2025-09-05 | Egocentric Video, 1,107 Hours, Hand Pose, Action Primitives | University of Texas at Dallas | [OpenEgo: A Large-Scale Multimodal Egocentric Dataset for Dexterous Manipulation](https://arxiv.org/abs/2509.05513) | arXiv | [paper](https://arxiv.org/abs/2509.05513) |
@@ -745,14 +766,26 @@ Reusable simulators, benchmark suites, datasets, robot descriptions, and trainin
 | 2026-07-10 | Tactile-Guided Transfer, Single+Bimanual, Benchmark | Authors | [TactiDex: A Real-World Tactile-Guided Benchmark for Human-Like Dexterous Manipulation](https://arxiv.org/abs/2607.09190) | arXiv | [project](https://tactidex.github.io/) |
 | 2026-07-09 | 100 Tasks, 6 DexHands, 3,180 Demos, Multi-Embodiment | UNC Chapel Hill | [DexVerse: A Modular Benchmark for Multi-Task, Multi-Embodiment Dexterous Manipulation](https://arxiv.org/abs/2607.08751) | arXiv | [project](https://ycyao216.github.io/DexVerse.site/) / [github](https://github.com/ycyao216/DexVerse) |
 | 2026-06-30 | Humanoid DexHands, Chemistry Lab, Precision Benchmark | Authors | [Labimus: A Simulation and Benchmark for Humanoid Dexterous Manipulation in Chemical Laboratory](https://arxiv.org/abs/2606.31037) | arXiv | [project](https://labimus.github.io/) |
-| 2026-06-17 | Full-Hand Tactile, 10M RGB, 7.8M Tactile, 226 Tasks | Beihang University | [HT-Bench: Benchmarking and Learning Dexterous Full-Hand Tactile Representations with Egocentric Vision](https://arxiv.org/abs/2606.19161) | arXiv | [paper](https://arxiv.org/abs/2606.19161) |
 | 2026-05-15 | MuJoCo, Task-Oriented Dexterity, Toolkit+Benchmark | Institute of Automation, CAS | [DexJoCo: A Benchmark and Toolkit for Task-Oriented Dexterous Manipulation on MuJoCo](https://arxiv.org/abs/2605.16257) | arXiv | [project](https://dexjoco.github.io/) |
 | 2026-04-10 | Anthropomorphic Hands, Taxonomy-Grounded Tasks, Real+Simulation | ETH Zurich | [A Benchmark of Dexterity for Anthropomorphic Robotic Hands](https://arxiv.org/abs/2604.09294) | arXiv | [project](https://srl-ethz.github.io/POMDAR/) / [github](https://github.com/srl-ethz/POMDAR) |
 | 2025-04-26 | Unified Platform, Simulation, Benchmark, 20+ Institutions | Cornell / 20+ institutions | [RoboVerse: Towards a Unified Platform, Dataset and Benchmark for Scalable and Generalizable Robot Learning](https://arxiv.org/abs/2504.18904) | RSS 2025 | [project](https://roboverseorg.github.io/) / [github](https://github.com/RoboVerseOrg) |
 | 2025-02-11 | In-Grasp Manipulation, Benchmark, Dexterous Fingers | Tsinghua | [Robotic In-Hand Manipulation for Large-Range Precise Object Movement: The RGMC Champion Solution](https://arxiv.org/abs/2502.07472) | RA-L | [project](https://rgmc-xl-team.github.io/ingrasp_manipulation) |
 | 2024-03-19 | In-the-Wild, Large-Scale, Robot Data, 76k Trajectories, 350 Hours | Stanford / 10 institutions | [DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset](https://arxiv.org/abs/2403.12945) | arXiv | [project](https://droid-dataset.github.io/) |
+| 2023-05-09 | Allegro Hand, Articulated Objects, Four Tasks, Unseen-Object Evaluation | UC San Diego | [DexArt: Benchmarking Generalizable Dexterous Manipulation with Articulated Objects](https://arxiv.org/abs/2305.05706) | CVPR 2023 | [project](https://www.chenbao.tech/dexart/) / [github](https://github.com/Kami-code/dexart-release) |
 | 2020-04-15 | Dexterous Hand, Offline RL, Adroit | UC Berkeley | [D4RL: Datasets for Deep Data-Driven Reinforcement Learning](https://arxiv.org/abs/2004.07219) | arXiv | [github](https://github.com/Farama-Foundation/D4RL) |
 | 2019-10-24 | Manipulation Benchmark, Meta-World, RL | Stanford | [Meta-World: A Benchmark and Evaluation for Multi-Task and Meta Reinforcement Learning](https://arxiv.org/abs/1910.10897) | CoRL 2019 | [github](https://github.com/Farama-Foundation/Metaworld) |
+
+#### Tactile & Contact-Rich Datasets
+
+Datasets with explicit tactile observations and contact-rich action supervision, including hand-centric and bimanual collection.
+
+| Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
+| :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
+| 2026-06-30 | Visual-Tactile-Action, Humanoid, 6k Trajectories | Authors | [RoboTacDex: A Dexterous Visual-Tactile-Action Dataset for Humanoid Manipulation](https://arxiv.org/abs/2606.31836) | arXiv | [paper](https://arxiv.org/abs/2606.31836) |
+| 2026-06-17 | Full-Hand Tactile, 10M RGB, 7.8M Tactile, 226 Tasks | Beihang University | [HT-Bench: Benchmarking and Learning Dexterous Full-Hand Tactile Representations with Egocentric Vision](https://arxiv.org/abs/2606.19161) | arXiv | [paper](https://arxiv.org/abs/2606.19161) |
+| 2026-06-03 | Visuotactile+Language+Actions, Haptic Teleop, 1,726 Demos, 38 Tasks | King's College London | [HapTile: A Haptic-Informed Vision-Tactile-Language-Action Dataset for Contact-Rich Imitation Learning](https://arxiv.org/abs/2606.04825) | arXiv | [project](https://haptile-dataset.github.io/) / [dataset](https://huggingface.co/datasets/HapTile2026/HapTile) |
+| 2026-04-22 | Bimanual, RGB-D+Tactile+Proprioception, 380+ Tasks | Humanoid Robot (Shanghai) | [VTouch++: A Multimodal Dataset with Vision-Based Tactile Enhancement for Bimanual Manipulation](https://arxiv.org/abs/2604.20444) | arXiv | — |
+| 2026-03-19 | OmniViTac, Visuotactile+Actions, 21,879 Trajectories, 86 Tasks | National University of Singapore | [OmniVTA: Visuo-Tactile World Modeling for Contact-Rich Robotic Manipulation](https://arxiv.org/abs/2603.19201) | arXiv | [project](https://mrsecant.github.io/OmniVTA/) / [dataset](https://huggingface.co/datasets/tars-robotics/OmniVitac) |
 
 <a id="-5-enabling-tasks"></a>
 <a id="43-enabling-methods--system-utilities"></a>
@@ -868,6 +901,9 @@ This list follows the single-file, compact-table style of [Awesome-UMI](https://
 - [awesome-humanoid-manipulation](https://github.com/Tsunami-kun/awesome-humanoid-manipulation)
 - [Awesome-Robotics-Manipulation](https://github.com/BaiShuanghao/Awesome-Robotics-Manipulation)
 - [Awesome-Touch](https://github.com/linchangyi1/Awesome-Touch)
+- [Awesome-Embodied-Data-Pyramid](https://github.com/worldbench/awesome-embodied-data-pyramid)
+- [Awesome-Dexterous-Hands](https://github.com/CyanHaze/Awesome-Dexterous-Hands)
+- [Awesome-Visuo-Tactile-Datasets](https://github.com/lif314/Awesome-Visuo-Tactile-Datasets)
 - [awesome-robot-descriptions](https://github.com/robot-descriptions/awesome-robot-descriptions)
 
 ## Citation
