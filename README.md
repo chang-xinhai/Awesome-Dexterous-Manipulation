@@ -430,7 +430,7 @@ Learning, planning, control, and data-pipeline methods for dexterous manipulatio
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
-| 2026-10-24 | Language-Guided Hand-Object Tracking, Adaptive References, Sim-to-Real | Tsinghua University | [AdaDexTrack: Dynamic Modulation for Adaptive and Generalizable Dexterous Manipulation Tracking](https://arxiv.org/abs/2610.33852) | arXiv | [project](https://janebek.github.io/AdaDexTrack) |
+| 2026-10-24 | Language-Guided Hand-Object Tracking, Adaptive References, Sim-to-Real | Shanghai Qi Zhi Institute | [AdaDexTrack: Dynamic Modulation for Adaptive and Generalizable Dexterous Manipulation Tracking](https://arxiv.org/abs/2610.33852) | CVPR 2026 | [project](https://janebek.github.io/AdaDexTrack) |
 | 2026-10-20 | AdaDex, Human HOI Prior, Hybrid Mimicking, Goal-Conditioned RL | CMU | [Learning Adaptable Dexterous Skills via Hybrid Dexterous Mimicking](https://arxiv.org/abs/2610.28628) | arXiv | [project](https://yuxuank.com/AdaDex) |
 | 2026-10-13 | Generalist HOI Tracking, Value-Guided Resets, Multi-Trajectory RL | National University of Singapore | [DexMimic: A Generalist Dexterous Hand-Object Tracking Policy via Value-Guided Reset Allocation](https://arxiv.org/abs/2610.19089) | arXiv | [project](https://zhexiluo.github.io/DexMimic/) |
 | 2026-10-07 | Factorized Tactile Geometry+Force+Change, Gated Policy, Precision Insertion | Amazon | [Factorized Tactile Representation and Control for Sim-to-Real Manipulation](https://arxiv.org/abs/2610.10510) | arXiv | — |
@@ -665,7 +665,7 @@ Learning, planning, control, and data-pipeline methods for dexterous manipulatio
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
-| 2026-10-26 | Portable Handheld Device, Dexterous Hand, Finger Control, Tactile+Video | University of Illinois Urbana-Champaign | [DEX-PHD: A Dexterous Portable Handheld Device for Multimodal Data Collection](https://arxiv.org/abs/2610.35462) | arXiv | — |
+| 2026-10-26 | Portable Handheld Device, Dexterous Hand, Finger Control, Tactile+Video | University of Illinois Urbana-Champaign | [DEX-PHD: A Dexterous Portable Handheld Device for Multimodal Data Collection](https://arxiv.org/abs/2610.35462) | Humanoids 2026 | — |
 | 2026-10-23 | Hand-Held DexHand, Skill Interface, Command Targets, 2.5K+ Demonstrations | Amazon FAR | [DexPort: A Hand-Held Skill Interface for Dexterous Hand Data Collection](https://arxiv.org/abs/2610.32969) | arXiv | [project](https://amberxie88.github.io/dexport/) |
 | 2026-10-04 | Digital-Twin AR, Visuo-Force Feedback, Occlusion-Aware Teleoperation | DGIST | [Now You Feel It, Now You See Me: Digital-Twin-based Teleoperation Interface for Dexterous Manipulation](https://arxiv.org/abs/2610.05081) | arXiv | — |
 | 2026-08-20 | Co-Designed Handheld Capture, 3-DoF Gripper, Shared Action Space | Robotics and AI Institute | [Koala Gripper: Co-designing Robotic Grippers and Data-Capture Devices for Scaling Dexterous Manipulation Learning](https://arxiv.org/abs/2608.20546) | arXiv | [project](http://koalagripper.rai-inst.com/) |
