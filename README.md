@@ -460,7 +460,7 @@ Learning, planning, control, and data-pipeline methods for dexterous manipulatio
 
 | Date | Keywords | Institute (first) | Paper / Resource | Publication | Others |
 | :--: | :------: | :---------------: | :--------------- | :---------: | :----: |
-| 2026-11-07 | GUARD, Anomaly-Aware Q-Steering, In-Hand | Honda Research Institute USA | [GUARD: Anomaly-Informed Q-Steering for Generative Robot Policies in Dexterous Manipulation](https://arxiv.org/abs/2611.10343) | arXiv | — |
+| 2026-11-07 | GUARD, Anomaly-Aware Q-Steering, In-Hand | Stanford University | [GUARD: Anomaly-Informed Q-Steering for Generative Robot Policies in Dexterous Manipulation](https://arxiv.org/abs/2611.10343) | arXiv | — |
 | 2026-11-03 | Hand-Object Configuration, Transfer Policy, Long-Horizon | Peking University | [DexHOT: Learning Hand-Object Configuration Transfer for Dexterous Manipulation](https://arxiv.org/abs/2611.05119) | arXiv | [project](https://dex-hot.github.io/) |
 | 2026-10-24 | Language-Guided Hand-Object Tracking, Adaptive References, Sim-to-Real | Shanghai Qi Zhi Institute | [AdaDexTrack: Dynamic Modulation for Adaptive and Generalizable Dexterous Manipulation Tracking](https://arxiv.org/abs/2610.33852) | CVPR 2026 | [project](https://janebek.github.io/AdaDexTrack) / [github](https://github.com/Janebek/AdaDexTrack) |
 | 2026-10-24 | MDPO, Constrained RL, Safety | Tongji University | [MDPO: Multi-constraint Dexterous Policy Optimization with Reinforcement Learning](https://arxiv.org/abs/2610.33480) | arXiv | — |
